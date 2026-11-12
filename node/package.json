@@ -2,17 +2,23 @@
   "name": "hillcountrybots-apify-seo-examples",
   "version": "1.0.0",
   "private": true,
-  "description": "Small Node.js examples that call the Hill Country Bots SEO Actors on Apify.",
+  "description": "Small Node.js examples that call the Hill Country Bots Actors on Apify.",
   "type": "module",
   "license": "MIT",
-  "engines": { "node": ">=18" },
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "pagespeed": "node bulk-pagespeed.mjs",
     "seo-audit": "node seo-audit.mjs",
     "domains": "node domain-expiry.mjs",
     "sitemap": "node sitemap-urls.mjs",
     "tech": "node tech-stack.mjs",
-    "pipeline": "node sitemap-to-pagespeed.mjs"
+    "pipeline": "node sitemap-to-pagespeed.mjs",
+    "broken-links": "node broken-links.mjs",
+    "metadata": "node metadata.mjs",
+    "wayback": "node wayback-history.mjs",
+    "chrome": "node chrome-store.mjs"
   },
   "dependencies": {
     "apify-client": "^2.9.0"

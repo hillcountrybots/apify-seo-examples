@@ -1,6 +1,6 @@
-# Apify SEO examples: PageSpeed, SEO audit, sitemaps, tech stack and domains in Python and Node.js
+# Apify SEO examples: PageSpeed, SEO audit, sitemaps, metadata, broken links and more in Python and Node.js
 
-Small, runnable scripts that call five website checking tools on Apify with the official `apify-client` library and save the results to CSV. Copy one into your own project, a cron job or a notebook and you have bulk SEO data in a few lines.
+Small, runnable scripts that call nine website checking tools on Apify with the official `apify-client` library and save the results to CSV. Copy one into your own project, a cron job or a notebook and you have bulk SEO data in a few lines.
 
 We built these tools and these examples. We are [Hill Country Bots](https://hillcountrybots.com), a small shop that makes public website checks with a clear price per result. The examples are MIT licensed and free to use. Running the tools costs a fraction of a cent per result, paid through your Apify account, and failed checks are never charged.
 
@@ -11,8 +11,12 @@ We built these tools and these examples. We are [Hill Country Bots](https://hill
 | [Sitemap URL Extractor](https://apify.com/hillcountrybots/sitemap-url-extractor) | Every URL from XML sitemaps, nested indexes and .gz files, with lastmod and source file | $0.50 per 1,000 URLs |
 | [Tech Stack Detector](https://apify.com/hillcountrybots/tech-stack-detector) | CMS, ecommerce platform, frameworks, server, CDN and analytics per site | $0.50 per 1,000 sites |
 | [Domain Availability Checker](https://apify.com/hillcountrybots/domain-availability-checker) | Registered or available, registrar, created and expiry dates from the official registry (RDAP) | $1 per 1,000 domains |
+| [Broken Link Checker](https://apify.com/hillcountrybots/broken-link-checker) | HTTP status, redirect chains and the page each 404 or dead link is on | $0.80 per 1,000 URLs |
+| [Bulk SEO Metadata Extractor](https://apify.com/hillcountrybots/bulk-seo-metadata-extractor) | Title, meta description, canonical, Open Graph, H1 and JSON-LD types | $2 per 1,000 pages |
+| [Wayback Machine History](https://apify.com/hillcountrybots/wayback-history) | Snapshots, first and last seen dates, and archived URLs from official archive.org APIs | $1 per 1,000 rows |
+| [Chrome Web Store Scraper](https://apify.com/hillcountrybots/chrome-web-store-scraper) | Users, rating, version, permissions and publisher company. No reviews or personal data | $1.50 per 1,000 extensions |
 
-Prices are the live Apify Store prices as of November 11, 2026. New Apify accounts get a small free monthly credit, which covers trying every example here.
+Prices are the live Apify Store prices as of November 12, 2026. New Apify accounts get a small free monthly credit, which covers trying every example here.
 
 ## Setup
 
@@ -51,6 +55,10 @@ Each script runs with sensible defaults if you pass no arguments, prints a short
 | Expiry dates for a list of domains | `domain_expiry.py` | `domain-expiry.mjs` |
 | Every URL in a site's sitemaps | `sitemap_urls.py` | `sitemap-urls.mjs` |
 | What a list of sites is built with | `tech_stack.py` | `tech-stack.mjs` |
+| Broken links and redirects for a URL list | `broken_links.py` | `broken-links.mjs` |
+| Titles, meta tags and JSON-LD types | `metadata.py` | `metadata.mjs` |
+| Yearly Wayback Machine snapshots | `wayback_history.py` | `wayback-history.mjs` |
+| Chrome Web Store extension data | `chrome_store.py` | `chrome-store.mjs` |
 | Sitemap to PageSpeed, chained | `sitemap_to_pagespeed.py` | `sitemap-to-pagespeed.mjs` |
 
 The chained example is the one we use most. It pulls a site's URLs from its sitemap and sends them straight to the PageSpeed checker, so you get the slowest pages on a whole site in one command:
@@ -88,7 +96,7 @@ for (const row of items) console.log(row.url, row.cms, row.ecommerce);
 
 ## Sample output
 
-The [sample-output](sample-output) folder has the full JSON from real runs of all five tools on November 11, 2026, against public sites like wikipedia.org, web.dev, python.org and sitemaps.org. Each run also included a made up domain on purpose, so you can see what an error row looks like. Those error rows were not charged.
+The [sample-output](sample-output) folder has JSON from real runs. The original five tools were captured on November 11, 2026, against public sites like wikipedia.org, web.dev, python.org and sitemaps.org. The four newer tools were captured on November 12, 2026, from the same public sites plus the Chrome Web Store listings for Bitwarden and Google Translate. Each run also included a made up domain on purpose, so you can see what an error row looks like. Those error rows were not charged.
 
 One PageSpeed row, shortened:
 
@@ -116,6 +124,7 @@ One PageSpeed row, shortened:
 ## More
 
 * Free one page speed and SEO check, no account: [hillcountrybots.com/tools/free-site-check](https://hillcountrybots.com/tools/free-site-check)
+* All tools: [hillcountrybots.com/tools](https://hillcountrybots.com/tools)
 * Guides: [How to check PageSpeed for many URLs](https://hillcountrybots.com/guides/how-to-check-pagespeed-for-many-urls), [How to find every page on a website](https://hillcountrybots.com/guides/how-to-find-all-pages-on-a-website)
 * Questions or a bug: open an issue here or email hillcountrybots@proton.me
 
