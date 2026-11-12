@@ -1,0 +1,556 @@
+[
+  {
+    "url": "https://www.python.org/",
+    "strategy": "mobile",
+    "finalUrl": "https://www.python.org/",
+    "lighthouseVersion": "13.6.0",
+    "scores": {
+      "performance": 90,
+      "accessibility": null,
+      "bestPractices": null,
+      "seo": null
+    },
+    "lab": {
+      "lcpMs": 3301,
+      "cls": 0.002625429900180301,
+      "tbtMs": 0,
+      "fcpMs": 2109,
+      "speedIndexMs": 2109,
+      "ttfbMs": 3
+    },
+    "opportunities": [
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "estimatedSavingsMs": 1600,
+        "metricSavings": {
+          "LCP": 1600,
+          "FCP": 1600
+        },
+        "displayValue": "Est savings of 1,590\u00a0ms"
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "estimatedSavingsMs": 720,
+        "metricSavings": {
+          "LCP": 700,
+          "FCP": 600
+        },
+        "displayValue": "Est savings of 128\u00a0KiB"
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "estimatedSavingsMs": 300,
+        "metricSavings": {
+          "LCP": 300,
+          "FCP": 0
+        },
+        "displayValue": "Est savings of 59\u00a0KiB"
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "estimatedSavingsMs": 150,
+        "metricSavings": {
+          "LCP": 150,
+          "FCP": 150
+        },
+        "displayValue": "Est savings of 33\u00a0KiB"
+      },
+      {
+        "id": "unminified-css",
+        "title": "Minify CSS",
+        "estimatedSavingsMs": 150,
+        "metricSavings": {
+          "LCP": 150,
+          "FCP": 150
+        },
+        "displayValue": "Est savings of 24\u00a0KiB"
+      }
+    ],
+    "runWarnings": [],
+    "fieldData": {
+      "overallCategory": "FAST",
+      "lcpMs": {
+        "p75": 1319,
+        "category": "FAST"
+      },
+      "inpMs": {
+        "p75": 89,
+        "category": "FAST"
+      },
+      "cls": {
+        "p75": 0,
+        "category": "FAST"
+      },
+      "fcpMs": {
+        "p75": 1252,
+        "category": "FAST"
+      },
+      "ttfbMs": {
+        "p75": 567,
+        "category": "FAST"
+      }
+    },
+    "originFieldData": {
+      "overallCategory": "FAST",
+      "lcpMs": {
+        "p75": 1186,
+        "category": "FAST"
+      },
+      "inpMs": {
+        "p75": 94,
+        "category": "FAST"
+      },
+      "cls": {
+        "p75": 0,
+        "category": "FAST"
+      },
+      "fcpMs": {
+        "p75": 1096,
+        "category": "FAST"
+      },
+      "ttfbMs": {
+        "p75": 541,
+        "category": "FAST"
+      }
+    },
+    "status": "ok",
+    "errorCode": null,
+    "errorMessage": null,
+    "durationMs": 7806,
+    "attempts": 1,
+    "fetchedAt": "2026-11-12T01:38:33.840Z"
+  },
+  {
+    "url": "https://developer.mozilla.org/",
+    "strategy": "mobile",
+    "finalUrl": "https://developer.mozilla.org/en-US/",
+    "lighthouseVersion": "13.6.0",
+    "scores": {
+      "performance": 100,
+      "accessibility": null,
+      "bestPractices": null,
+      "seo": null
+    },
+    "lab": {
+      "lcpMs": 1051,
+      "cls": 0.04888264475365667,
+      "tbtMs": 0,
+      "fcpMs": 1051,
+      "speedIndexMs": 1051,
+      "ttfbMs": 4
+    },
+    "opportunities": [
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "estimatedSavingsMs": 850,
+        "metricSavings": {
+          "LCP": 850,
+          "FCP": 850
+        },
+        "displayValue": "Est savings of 870\u00a0ms"
+      },
+      {
+        "id": "redirects",
+        "title": "Avoid multiple page redirects",
+        "estimatedSavingsMs": 751,
+        "metricSavings": {
+          "LCP": 750,
+          "FCP": 750
+        },
+        "displayValue": "Est savings of 750\u00a0ms"
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "estimatedSavingsMs": 50,
+        "metricSavings": {
+          "LCP": 50,
+          "FCP": 50
+        },
+        "displayValue": "Est savings of 70\u00a0ms"
+      }
+    ],
+    "runWarnings": [
+      "The page may not be loading as expected because your test URL (https://developer.mozilla.org/) was redirected to https://developer.mozilla.org/en-US/. Try testing the second URL directly."
+    ],
+    "fieldData": {
+      "overallCategory": "AVERAGE",
+      "lcpMs": {
+        "p75": 1979,
+        "category": "FAST"
+      },
+      "inpMs": {
+        "p75": 164,
+        "category": "FAST"
+      },
+      "cls": {
+        "p75": 0.04,
+        "category": "FAST"
+      },
+      "fcpMs": {
+        "p75": 1918,
+        "category": "AVERAGE"
+      },
+      "ttfbMs": {
+        "p75": 896,
+        "category": "AVERAGE"
+      }
+    },
+    "originFieldData": {
+      "overallCategory": "FAST",
+      "lcpMs": {
+        "p75": 1490,
+        "category": "FAST"
+      },
+      "inpMs": {
+        "p75": 130,
+        "category": "FAST"
+      },
+      "cls": {
+        "p75": 0,
+        "category": "FAST"
+      },
+      "fcpMs": {
+        "p75": 1457,
+        "category": "FAST"
+      },
+      "ttfbMs": {
+        "p75": 648,
+        "category": "FAST"
+      }
+    },
+    "status": "ok",
+    "errorCode": null,
+    "errorMessage": null,
+    "durationMs": 8603,
+    "attempts": 1,
+    "fetchedAt": "2026-11-12T01:38:34.639Z"
+  },
+  {
+    "url": "https://www.gov.uk/",
+    "strategy": "mobile",
+    "finalUrl": "https://www.gov.uk/",
+    "lighthouseVersion": "13.6.0",
+    "scores": {
+      "performance": 99,
+      "accessibility": null,
+      "bestPractices": null,
+      "seo": null
+    },
+    "lab": {
+      "lcpMs": 912,
+      "cls": 0,
+      "tbtMs": 19,
+      "fcpMs": 912,
+      "speedIndexMs": 3590.120620751011,
+      "ttfbMs": 1
+    },
+    "opportunities": [
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "estimatedSavingsMs": 600,
+        "metricSavings": {
+          "LCP": 600,
+          "FCP": 600
+        },
+        "displayValue": "Est savings of 590\u00a0ms"
+      },
+      {
+        "id": "font-display-insight",
+        "title": "Font display",
+        "estimatedSavingsMs": 50,
+        "metricSavings": {
+          "FCP": 50,
+          "INP": 0
+        },
+        "displayValue": "Est savings of 40\u00a0ms"
+      }
+    ],
+    "runWarnings": [],
+    "fieldData": {
+      "overallCategory": "FAST",
+      "lcpMs": {
+        "p75": 707,
+        "category": "FAST"
+      },
+      "inpMs": {
+        "p75": 107,
+        "category": "FAST"
+      },
+      "cls": {
+        "p75": 0,
+        "category": "FAST"
+      },
+      "fcpMs": {
+        "p75": 658,
+        "category": "FAST"
+      },
+      "ttfbMs": {
+        "p75": 299,
+        "category": "FAST"
+      }
+    },
+    "originFieldData": {
+      "overallCategory": "FAST",
+      "lcpMs": {
+        "p75": 756,
+        "category": "FAST"
+      },
+      "inpMs": {
+        "p75": 109,
+        "category": "FAST"
+      },
+      "cls": {
+        "p75": 0,
+        "category": "FAST"
+      },
+      "fcpMs": {
+        "p75": 698,
+        "category": "FAST"
+      },
+      "ttfbMs": {
+        "p75": 332,
+        "category": "FAST"
+      }
+    },
+    "status": "ok",
+    "errorCode": null,
+    "errorMessage": null,
+    "durationMs": 11627,
+    "attempts": 1,
+    "fetchedAt": "2026-11-12T01:38:37.662Z"
+  },
+  {
+    "url": "https://www.wikipedia.org/",
+    "strategy": "mobile",
+    "finalUrl": "https://www.wikipedia.org/",
+    "lighthouseVersion": "13.6.0",
+    "scores": {
+      "performance": 100,
+      "accessibility": null,
+      "bestPractices": null,
+      "seo": null
+    },
+    "lab": {
+      "lcpMs": 1219,
+      "cls": 0.0005049244901665216,
+      "tbtMs": 0,
+      "fcpMs": 1149,
+      "speedIndexMs": 2463.1937539590067,
+      "ttfbMs": 18
+    },
+    "opportunities": [
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "estimatedSavingsMs": 250,
+        "metricSavings": {
+          "LCP": 250,
+          "FCP": 0
+        },
+        "displayValue": "Est savings of 27\u00a0KiB"
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "estimatedSavingsMs": 100,
+        "metricSavings": {
+          "LCP": 100,
+          "FCP": 0
+        },
+        "displayValue": "Est savings of 35\u00a0KiB"
+      }
+    ],
+    "runWarnings": [],
+    "fieldData": {
+      "overallCategory": "FAST",
+      "lcpMs": {
+        "p75": 1301,
+        "category": "FAST"
+      },
+      "inpMs": {
+        "p75": 100,
+        "category": "FAST"
+      },
+      "cls": {
+        "p75": 0,
+        "category": "FAST"
+      },
+      "fcpMs": {
+        "p75": 1171,
+        "category": "FAST"
+      },
+      "ttfbMs": {
+        "p75": 550,
+        "category": "FAST"
+      }
+    },
+    "originFieldData": {
+      "overallCategory": "FAST",
+      "lcpMs": {
+        "p75": 1301,
+        "category": "FAST"
+      },
+      "inpMs": {
+        "p75": 100,
+        "category": "FAST"
+      },
+      "cls": {
+        "p75": 0,
+        "category": "FAST"
+      },
+      "fcpMs": {
+        "p75": 1171,
+        "category": "FAST"
+      },
+      "ttfbMs": {
+        "p75": 549,
+        "category": "FAST"
+      }
+    },
+    "status": "ok",
+    "errorCode": null,
+    "errorMessage": null,
+    "durationMs": 13943,
+    "attempts": 1,
+    "fetchedAt": "2026-11-12T01:38:39.963Z"
+  },
+  {
+    "url": "https://web.dev/",
+    "strategy": "mobile",
+    "finalUrl": "https://web.dev/",
+    "lighthouseVersion": "13.6.0",
+    "scores": {
+      "performance": 46,
+      "accessibility": null,
+      "bestPractices": null,
+      "seo": null
+    },
+    "lab": {
+      "lcpMs": 7805.344638535095,
+      "cls": 0.09365459428752461,
+      "tbtMs": 407.5,
+      "fcpMs": 7805.344638535095,
+      "speedIndexMs": 7805.344638535095,
+      "ttfbMs": 4
+    },
+    "opportunities": [
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "estimatedSavingsMs": 3450,
+        "metricSavings": {
+          "LCP": 3450,
+          "FCP": 3450
+        },
+        "displayValue": "Est savings of 895\u00a0KiB"
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "estimatedSavingsMs": 1200,
+        "metricSavings": {
+          "LCP": 1200,
+          "FCP": 1200
+        },
+        "displayValue": "Est savings of 140\u00a0KiB"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "estimatedSavingsMs": 600,
+        "metricSavings": {
+          "LCP": 600,
+          "FCP": 600
+        },
+        "displayValue": "Est savings of 600\u00a0ms"
+      },
+      {
+        "id": "mainthread-work-breakdown",
+        "title": "Minimize main-thread work",
+        "estimatedSavingsMs": 400,
+        "metricSavings": {
+          "TBT": 400
+        },
+        "displayValue": "2.4\u00a0s"
+      },
+      {
+        "id": "bootup-time",
+        "title": "Reduce JavaScript execution time",
+        "estimatedSavingsMs": 400,
+        "metricSavings": {
+          "TBT": 400
+        },
+        "displayValue": "1.5\u00a0s"
+      }
+    ],
+    "runWarnings": [],
+    "fieldData": {
+      "overallCategory": "SLOW",
+      "lcpMs": {
+        "p75": 3047,
+        "category": "AVERAGE"
+      },
+      "inpMs": {
+        "p75": 235,
+        "category": "AVERAGE"
+      },
+      "cls": {
+        "p75": 0.01,
+        "category": "FAST"
+      },
+      "fcpMs": {
+        "p75": 3070,
+        "category": "SLOW"
+      },
+      "ttfbMs": {
+        "p75": 1816,
+        "category": "SLOW"
+      }
+    },
+    "originFieldData": {
+      "overallCategory": "SLOW",
+      "lcpMs": {
+        "p75": 3123,
+        "category": "AVERAGE"
+      },
+      "inpMs": {
+        "p75": 205,
+        "category": "AVERAGE"
+      },
+      "cls": {
+        "p75": 0.05,
+        "category": "FAST"
+      },
+      "fcpMs": {
+        "p75": 3014,
+        "category": "SLOW"
+      },
+      "ttfbMs": {
+        "p75": 2018,
+        "category": "SLOW"
+      }
+    },
+    "status": "ok",
+    "errorCode": null,
+    "errorMessage": null,
+    "durationMs": 16330,
+    "attempts": 1,
+    "fetchedAt": "2026-11-12T01:38:42.363Z"
+  },
+  {
+    "url": "https://hcb-nonexistent-domain-zz9q.com/",
+    "strategy": "mobile",
+    "status": "error",
+    "errorCode": "LIGHTHOUSE_FAILED",
+    "errorMessage": "Lighthouse returned error: FAILED_DOCUMENT_REQUEST. Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Details: net::ERR_CONNECTION_FAILED)",
+    "durationMs": 17824,
+    "fetchedAt": "2026-11-12T01:38:43.861Z"
+  }
+]

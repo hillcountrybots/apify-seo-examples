@@ -1,0 +1,959 @@
+[
+  {
+    "input": "https://hcb-nonexistent-domain-zz9q.com/",
+    "url": "https://hcb-nonexistent-domain-zz9q.com/",
+    "finalUrl": null,
+    "statusCode": null,
+    "pageTitle": null,
+    "technologyCount": 0,
+    "technologies": [],
+    "categories": {},
+    "cms": null,
+    "ecommerce": null,
+    "analytics": [],
+    "cdn": [],
+    "server": null,
+    "frameworks": [],
+    "status": "error",
+    "errorCode": "DNS_NOT_FOUND",
+    "errorMessage": "Domain does not resolve (ENOTFOUND)",
+    "analyzedAt": "2026-11-12T01:39:20.756Z"
+  },
+  {
+    "input": "wordpress.org",
+    "url": "https://wordpress.org/",
+    "finalUrl": "https://wordpress.org/",
+    "statusCode": 200,
+    "pageTitle": "Blog Tool, Publishing Platform, and CMS | WordPress.org",
+    "technologyCount": 11,
+    "technologies": [
+      {
+        "name": "C",
+        "categories": [
+          "Programming languages"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "http://www.open-std.org/jtc1/sc22/wg14/"
+      },
+      {
+        "name": "Google Tag Manager",
+        "categories": [
+          "Tag managers"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "http://www.google.com/tagmanager"
+      },
+      {
+        "name": "Gutenberg",
+        "categories": [
+          "WordPress plugins",
+          "Editors"
+        ],
+        "version": "24.3.1",
+        "confidence": 100,
+        "website": "https://github.com/WordPress/gutenberg"
+      },
+      {
+        "name": "HSTS",
+        "categories": [
+          "Security"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
+      },
+      {
+        "name": "MySQL",
+        "categories": [
+          "Databases"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "http://mysql.com"
+      },
+      {
+        "name": "Nginx",
+        "categories": [
+          "Web servers",
+          "Reverse proxies"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "http://nginx.org/en"
+      },
+      {
+        "name": "Open Graph",
+        "categories": [
+          "Miscellaneous"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://ogp.me"
+      },
+      {
+        "name": "PHP",
+        "categories": [
+          "Programming languages"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "http://php.net"
+      },
+      {
+        "name": "Priority Hints",
+        "categories": [
+          "Performance"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://wicg.github.io/priority-hints/"
+      },
+      {
+        "name": "RSS",
+        "categories": [
+          "Miscellaneous"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://www.rssboard.org/rss-specification"
+      },
+      {
+        "name": "WordPress",
+        "categories": [
+          "CMS",
+          "Blogs"
+        ],
+        "version": "7.2",
+        "confidence": 100,
+        "website": "https://wordpress.org"
+      }
+    ],
+    "categories": {
+      "Programming languages": [
+        "C",
+        "PHP"
+      ],
+      "Tag managers": [
+        "Google Tag Manager"
+      ],
+      "WordPress plugins": [
+        "Gutenberg"
+      ],
+      "Editors": [
+        "Gutenberg"
+      ],
+      "Security": [
+        "HSTS"
+      ],
+      "Databases": [
+        "MySQL"
+      ],
+      "Web servers": [
+        "Nginx"
+      ],
+      "Reverse proxies": [
+        "Nginx"
+      ],
+      "Miscellaneous": [
+        "Open Graph",
+        "RSS"
+      ],
+      "Performance": [
+        "Priority Hints"
+      ],
+      "CMS": [
+        "WordPress"
+      ],
+      "Blogs": [
+        "WordPress"
+      ]
+    },
+    "cms": "WordPress",
+    "ecommerce": null,
+    "analytics": [],
+    "cdn": [],
+    "server": "Nginx",
+    "frameworks": [],
+    "status": "ok",
+    "errorCode": null,
+    "errorMessage": null,
+    "analyzedAt": "2026-11-12T01:39:20.985Z"
+  },
+  {
+    "input": "https://www.gov.uk/",
+    "url": "https://www.gov.uk/",
+    "finalUrl": "https://www.gov.uk/",
+    "statusCode": 200,
+    "pageTitle": "Welcome to GOV.UK",
+    "technologyCount": 9,
+    "technologies": [
+      {
+        "name": "C",
+        "categories": [
+          "Programming languages"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "http://www.open-std.org/jtc1/sc22/wg14/"
+      },
+      {
+        "name": "HSTS",
+        "categories": [
+          "Security"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
+      },
+      {
+        "name": "HTTP/3",
+        "categories": [
+          "Miscellaneous"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://httpwg.org/"
+      },
+      {
+        "name": "Nginx",
+        "categories": [
+          "Web servers",
+          "Reverse proxies"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "http://nginx.org/en"
+      },
+      {
+        "name": "Open Graph",
+        "categories": [
+          "Miscellaneous"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://ogp.me"
+      },
+      {
+        "name": "Varnish",
+        "categories": [
+          "Caching"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "http://www.varnish-cache.org"
+      },
+      {
+        "name": "GOV.UK Frontend",
+        "categories": [
+          "UI frameworks"
+        ],
+        "version": null,
+        "confidence": 90,
+        "website": "https://design-system.service.gov.uk/"
+      },
+      {
+        "name": "Ruby",
+        "categories": [
+          "Programming languages"
+        ],
+        "version": null,
+        "confidence": 50,
+        "website": "http://ruby-lang.org"
+      },
+      {
+        "name": "Ruby on Rails",
+        "categories": [
+          "Web frameworks"
+        ],
+        "version": null,
+        "confidence": 50,
+        "website": "https://rubyonrails.org"
+      }
+    ],
+    "categories": {
+      "Programming languages": [
+        "C",
+        "Ruby"
+      ],
+      "Security": [
+        "HSTS"
+      ],
+      "Miscellaneous": [
+        "HTTP/3",
+        "Open Graph"
+      ],
+      "Web servers": [
+        "Nginx"
+      ],
+      "Reverse proxies": [
+        "Nginx"
+      ],
+      "Caching": [
+        "Varnish"
+      ],
+      "UI frameworks": [
+        "GOV.UK Frontend"
+      ],
+      "Web frameworks": [
+        "Ruby on Rails"
+      ]
+    },
+    "cms": null,
+    "ecommerce": null,
+    "analytics": [],
+    "cdn": [],
+    "server": "Nginx",
+    "frameworks": [
+      "Ruby on Rails"
+    ],
+    "status": "ok",
+    "errorCode": null,
+    "errorMessage": null,
+    "analyzedAt": "2026-11-12T01:39:21.075Z"
+  },
+  {
+    "input": "https://www.python.org/",
+    "url": "https://www.python.org/",
+    "finalUrl": "https://www.python.org/",
+    "statusCode": 200,
+    "pageTitle": "Welcome to Python.org",
+    "technologyCount": 13,
+    "technologies": [
+      {
+        "name": "Amazon Web Services",
+        "categories": [
+          "PaaS"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://aws.amazon.com/"
+      },
+      {
+        "name": "Atlassian Statuspage",
+        "categories": [
+          "Issue trackers",
+          "PaaS"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://www.atlassian.com/software/statuspage"
+      },
+      {
+        "name": "C",
+        "categories": [
+          "Programming languages"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "http://www.open-std.org/jtc1/sc22/wg14/"
+      },
+      {
+        "name": "Google Hosted Libraries",
+        "categories": [
+          "CDN"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://developers.google.com/speed/libraries"
+      },
+      {
+        "name": "HSTS",
+        "categories": [
+          "Security"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
+      },
+      {
+        "name": "jQuery",
+        "categories": [
+          "JavaScript libraries"
+        ],
+        "version": "1.8.2",
+        "confidence": 100,
+        "website": "https://jquery.com"
+      },
+      {
+        "name": "jQuery UI",
+        "categories": [
+          "JavaScript libraries"
+        ],
+        "version": "1.12.1",
+        "confidence": 100,
+        "website": "http://jqueryui.com"
+      },
+      {
+        "name": "Mailgun",
+        "categories": [
+          "Email"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://www.mailgun.com/"
+      },
+      {
+        "name": "Modernizr",
+        "categories": [
+          "JavaScript libraries"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://modernizr.com"
+      },
+      {
+        "name": "Nginx",
+        "categories": [
+          "Web servers",
+          "Reverse proxies"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "http://nginx.org/en"
+      },
+      {
+        "name": "Open Graph",
+        "categories": [
+          "Miscellaneous"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://ogp.me"
+      },
+      {
+        "name": "RSS",
+        "categories": [
+          "Miscellaneous"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://www.rssboard.org/rss-specification"
+      },
+      {
+        "name": "Varnish",
+        "categories": [
+          "Caching"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "http://www.varnish-cache.org"
+      }
+    ],
+    "categories": {
+      "PaaS": [
+        "Amazon Web Services",
+        "Atlassian Statuspage"
+      ],
+      "Issue trackers": [
+        "Atlassian Statuspage"
+      ],
+      "Programming languages": [
+        "C"
+      ],
+      "CDN": [
+        "Google Hosted Libraries"
+      ],
+      "Security": [
+        "HSTS"
+      ],
+      "JavaScript libraries": [
+        "jQuery",
+        "jQuery UI",
+        "Modernizr"
+      ],
+      "Email": [
+        "Mailgun"
+      ],
+      "Web servers": [
+        "Nginx"
+      ],
+      "Reverse proxies": [
+        "Nginx"
+      ],
+      "Miscellaneous": [
+        "Open Graph",
+        "RSS"
+      ],
+      "Caching": [
+        "Varnish"
+      ]
+    },
+    "cms": null,
+    "ecommerce": null,
+    "analytics": [],
+    "cdn": [
+      "Google Hosted Libraries"
+    ],
+    "server": "Nginx",
+    "frameworks": [],
+    "status": "ok",
+    "errorCode": null,
+    "errorMessage": null,
+    "analyzedAt": "2026-11-12T01:39:21.162Z"
+  },
+  {
+    "input": "https://nextjs.org/",
+    "url": "https://nextjs.org/",
+    "finalUrl": "https://nextjs.org/",
+    "statusCode": 200,
+    "pageTitle": "Next.js by Vercel - The React Framework",
+    "technologyCount": 10,
+    "technologies": [
+      {
+        "name": "Google Workspace",
+        "categories": [
+          "Webmail",
+          "Email"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://workspace.google.com/"
+      },
+      {
+        "name": "HSTS",
+        "categories": [
+          "Security"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
+      },
+      {
+        "name": "Next.js",
+        "categories": [
+          "Web frameworks",
+          "Web servers"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://nextjs.org"
+      },
+      {
+        "name": "Node.js",
+        "categories": [
+          "Programming languages"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "http://nodejs.org"
+      },
+      {
+        "name": "Open Graph",
+        "categories": [
+          "Miscellaneous"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://ogp.me"
+      },
+      {
+        "name": "Priority Hints",
+        "categories": [
+          "Performance"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://wicg.github.io/priority-hints/"
+      },
+      {
+        "name": "React",
+        "categories": [
+          "JavaScript frameworks"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://reactjs.org"
+      },
+      {
+        "name": "Sendgrid",
+        "categories": [
+          "Email"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://sendgrid.com/"
+      },
+      {
+        "name": "Vercel",
+        "categories": [
+          "PaaS"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://vercel.com"
+      },
+      {
+        "name": "Webpack",
+        "categories": [
+          "Miscellaneous"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://webpack.js.org/"
+      }
+    ],
+    "categories": {
+      "Webmail": [
+        "Google Workspace"
+      ],
+      "Email": [
+        "Google Workspace",
+        "Sendgrid"
+      ],
+      "Security": [
+        "HSTS"
+      ],
+      "Web frameworks": [
+        "Next.js"
+      ],
+      "Web servers": [
+        "Next.js"
+      ],
+      "Programming languages": [
+        "Node.js"
+      ],
+      "Miscellaneous": [
+        "Open Graph",
+        "Webpack"
+      ],
+      "Performance": [
+        "Priority Hints"
+      ],
+      "JavaScript frameworks": [
+        "React"
+      ],
+      "PaaS": [
+        "Vercel"
+      ]
+    },
+    "cms": null,
+    "ecommerce": null,
+    "analytics": [],
+    "cdn": [],
+    "server": null,
+    "frameworks": [
+      "Next.js",
+      "React"
+    ],
+    "status": "ok",
+    "errorCode": null,
+    "errorMessage": null,
+    "analyzedAt": "2026-11-12T01:39:21.263Z"
+  },
+  {
+    "input": "https://web.dev/",
+    "url": "https://web.dev/",
+    "finalUrl": "https://web.dev/",
+    "statusCode": 200,
+    "pageTitle": "web.dev",
+    "technologyCount": 10,
+    "technologies": [
+      {
+        "name": "Google Cloud",
+        "categories": [
+          "IaaS"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://cloud.google.com"
+      },
+      {
+        "name": "Google Cloud Trace",
+        "categories": [
+          "Performance"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://cloud.google.com/trace"
+      },
+      {
+        "name": "Google Font API",
+        "categories": [
+          "Font scripts"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "http://google.com/fonts"
+      },
+      {
+        "name": "Google Sign-in",
+        "categories": [
+          "Authentication"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://developers.google.com/identity/sign-in/web"
+      },
+      {
+        "name": "Google Tag Manager",
+        "categories": [
+          "Tag managers"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "http://www.google.com/tagmanager"
+      },
+      {
+        "name": "HSTS",
+        "categories": [
+          "Security"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
+      },
+      {
+        "name": "HTTP/3",
+        "categories": [
+          "Miscellaneous"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://httpwg.org/"
+      },
+      {
+        "name": "Open Graph",
+        "categories": [
+          "Miscellaneous"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://ogp.me"
+      },
+      {
+        "name": "Priority Hints",
+        "categories": [
+          "Performance"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://wicg.github.io/priority-hints/"
+      },
+      {
+        "name": "PWA",
+        "categories": [
+          "Miscellaneous"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://web.dev/progressive-web-apps/"
+      }
+    ],
+    "categories": {
+      "IaaS": [
+        "Google Cloud"
+      ],
+      "Performance": [
+        "Google Cloud Trace",
+        "Priority Hints"
+      ],
+      "Font scripts": [
+        "Google Font API"
+      ],
+      "Authentication": [
+        "Google Sign-in"
+      ],
+      "Tag managers": [
+        "Google Tag Manager"
+      ],
+      "Security": [
+        "HSTS"
+      ],
+      "Miscellaneous": [
+        "HTTP/3",
+        "Open Graph",
+        "PWA"
+      ]
+    },
+    "cms": null,
+    "ecommerce": null,
+    "analytics": [],
+    "cdn": [],
+    "server": null,
+    "frameworks": [],
+    "status": "ok",
+    "errorCode": null,
+    "errorMessage": null,
+    "analyzedAt": "2026-11-12T01:39:21.318Z"
+  },
+  {
+    "input": "https://www.allbirds.com/",
+    "url": "https://www.allbirds.com/",
+    "finalUrl": "https://www.allbirds.com/",
+    "statusCode": 200,
+    "pageTitle": "Allbirds: Comfortable, Sustainable Shoes & Apparel",
+    "technologyCount": 13,
+    "technologies": [
+      {
+        "name": "Apple iCloud Mail",
+        "categories": [
+          "Webmail"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://www.apple.com/icloud/"
+      },
+      {
+        "name": "Apple Pay",
+        "categories": [
+          "Payment processors"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://www.apple.com/apple-pay"
+      },
+      {
+        "name": "Cloudflare",
+        "categories": [
+          "CDN"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "http://www.cloudflare.com"
+      },
+      {
+        "name": "DocuSign",
+        "categories": [
+          "Miscellaneous"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://www.docusign.com"
+      },
+      {
+        "name": "Google Tag Manager",
+        "categories": [
+          "Tag managers"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "http://www.google.com/tagmanager"
+      },
+      {
+        "name": "HSTS",
+        "categories": [
+          "Security"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
+      },
+      {
+        "name": "HTTP/3",
+        "categories": [
+          "Miscellaneous"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://httpwg.org/"
+      },
+      {
+        "name": "Microsoft 365",
+        "categories": [
+          "Webmail",
+          "Email"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://www.microsoft.com/microsoft-365"
+      },
+      {
+        "name": "Microsoft Clarity",
+        "categories": [
+          "Analytics"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://clarity.microsoft.com"
+      },
+      {
+        "name": "Open Graph",
+        "categories": [
+          "Miscellaneous"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://ogp.me"
+      },
+      {
+        "name": "PayPal",
+        "categories": [
+          "Payment processors"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://paypal.com"
+      },
+      {
+        "name": "Priority Hints",
+        "categories": [
+          "Performance"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "https://wicg.github.io/priority-hints/"
+      },
+      {
+        "name": "Shopify",
+        "categories": [
+          "Ecommerce"
+        ],
+        "version": null,
+        "confidence": 100,
+        "website": "http://shopify.com"
+      }
+    ],
+    "categories": {
+      "Webmail": [
+        "Apple iCloud Mail",
+        "Microsoft 365"
+      ],
+      "Payment processors": [
+        "Apple Pay",
+        "PayPal"
+      ],
+      "CDN": [
+        "Cloudflare"
+      ],
+      "Miscellaneous": [
+        "DocuSign",
+        "HTTP/3",
+        "Open Graph"
+      ],
+      "Tag managers": [
+        "Google Tag Manager"
+      ],
+      "Security": [
+        "HSTS"
+      ],
+      "Email": [
+        "Microsoft 365"
+      ],
+      "Analytics": [
+        "Microsoft Clarity"
+      ],
+      "Performance": [
+        "Priority Hints"
+      ],
+      "Ecommerce": [
+        "Shopify"
+      ]
+    },
+    "cms": null,
+    "ecommerce": "Shopify",
+    "analytics": [
+      "Microsoft Clarity"
+    ],
+    "cdn": [
+      "Cloudflare"
+    ],
+    "server": null,
+    "frameworks": [],
+    "status": "ok",
+    "errorCode": null,
+    "errorMessage": null,
+    "analyzedAt": "2026-11-12T01:39:21.500Z"
+  }
+]

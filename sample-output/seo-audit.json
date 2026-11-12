@@ -1,0 +1,1778 @@
+[
+  {
+    "rowType": "page",
+    "site": "https://hcb-nonexistent-domain-zz9q.com",
+    "input": "https://hcb-nonexistent-domain-zz9q.com/",
+    "url": "https://hcb-nonexistent-domain-zz9q.com/",
+    "finalUrl": null,
+    "statusCode": null,
+    "score": null,
+    "grade": null,
+    "criticalCount": 0,
+    "warningCount": 0,
+    "noticeCount": 0,
+    "topIssue": null,
+    "issuesText": null,
+    "issues": [],
+    "status": "error",
+    "errorCode": "DNS_NOT_FOUND",
+    "errorMessage": "Domain does not resolve (ENOTFOUND)",
+    "auditedAt": "2026-11-12T01:37:19.590Z"
+  },
+  {
+    "rowType": "page",
+    "site": "https://docs.apify.com",
+    "input": "https://docs.apify.com/",
+    "url": "https://docs.apify.com/",
+    "finalUrl": "https://docs.apify.com/",
+    "statusCode": 200,
+    "redirectCount": 0,
+    "redirectChain": [],
+    "score": 86,
+    "grade": "B",
+    "criticalCount": 0,
+    "warningCount": 1,
+    "noticeCount": 2,
+    "topIssue": "Missing meta description",
+    "issuesText": "[WARNING] Missing meta description | [NOTICE] Title is too short (19 characters; aim for 30-60) | [NOTICE] No structured data (schema.org)",
+    "issues": [
+      {
+        "id": "MISSING_META_DESCRIPTION",
+        "severity": "warning",
+        "title": "Missing meta description",
+        "detail": null,
+        "whyItMatters": "The description is the grey text under your headline in Google. Without it, Google pulls random text from the page and fewer people click.",
+        "howToFix": "Add a <meta name=\"description\"> of 70-160 characters that sells the page and includes the main keyword.",
+        "category": "meta"
+      },
+      {
+        "id": "TITLE_TOO_SHORT",
+        "severity": "notice",
+        "title": "Title is too short",
+        "detail": "19 characters; aim for 30-60",
+        "whyItMatters": "A very short title wastes the most valuable spot in search results and rarely matches what people search for.",
+        "howToFix": "Expand the title to 30-60 characters: main keyword + what the page offers + brand.",
+        "category": "meta"
+      },
+      {
+        "id": "NO_STRUCTURED_DATA",
+        "severity": "notice",
+        "title": "No structured data (schema.org)",
+        "detail": null,
+        "whyItMatters": "Structured data helps Google show rich results (stars, prices, FAQs, breadcrumbs) and helps AI search understand the page.",
+        "howToFix": "Add JSON-LD for what the page is: Organization or LocalBusiness on the homepage, Article on posts, Product on product pages.",
+        "category": "schema"
+      }
+    ],
+    "title": "Apify Documentation",
+    "titleLength": 19,
+    "metaDescription": null,
+    "metaDescriptionLength": 0,
+    "h1": "Apify Documentation",
+    "h1Count": 1,
+    "h1All": [
+      "Apify Documentation"
+    ],
+    "h2Count": 8,
+    "canonical": "https://docs.apify.com/",
+    "canonicalStatus": "self",
+    "indexable": true,
+    "metaRobots": null,
+    "xRobotsTag": null,
+    "lang": "en",
+    "hasViewport": true,
+    "hreflang": [
+      {
+        "lang": "en",
+        "href": "https://docs.apify.com/"
+      },
+      {
+        "lang": "x-default",
+        "href": "https://docs.apify.com/"
+      }
+    ],
+    "hreflangCount": 2,
+    "ogTitle": "Apify Documentation",
+    "ogDescription": null,
+    "ogImage": "https://apify.com/og-image/docs-article",
+    "ogType": null,
+    "twitterCard": "summary_large_image",
+    "schemaTypes": [],
+    "jsonLdBlocks": 0,
+    "jsonLdInvalid": 0,
+    "imagesTotal": 22,
+    "imagesMissingAlt": 0,
+    "imagesDecorative": 2,
+    "internalLinks": 44,
+    "externalLinks": 24,
+    "nofollowLinks": 0,
+    "wordCount": 508,
+    "mixedContentCount": 0,
+    "isHttps": true,
+    "linksChecked": 20,
+    "brokenLinks": 0,
+    "brokenLinkSamples": [],
+    "responseTimeMs": 15,
+    "downloadTimeMs": 99,
+    "pageSizeKb": 74.7,
+    "htmlTruncated": false,
+    "fromSitemap": false,
+    "status": "ok",
+    "errorCode": null,
+    "errorMessage": null,
+    "auditedAt": "2026-11-12T01:38:06.624Z"
+  },
+  {
+    "rowType": "page",
+    "site": "https://www.sitemaps.org",
+    "input": "https://www.sitemaps.org/",
+    "url": "https://www.sitemaps.org/",
+    "finalUrl": "https://www.sitemaps.org/",
+    "statusCode": 200,
+    "redirectCount": 0,
+    "redirectChain": [],
+    "score": 70,
+    "grade": "C",
+    "criticalCount": 0,
+    "warningCount": 2,
+    "noticeCount": 6,
+    "topIssue": "Not set up for mobile (no viewport tag)",
+    "issuesText": "[WARNING] Not set up for mobile (no viewport tag) | [WARNING] Very little text on the page (189 words of main text) | [NOTICE] Title is too short (19 characters; aim for 30-60) | [NOTICE] More than one H1 heading (2 H1 headings) | [NOTICE] No canonical tag | [NOTICE] No structured data (schema.org) | [NOTICE] Social share preview is incomplete (missing og:title, og:description, og:image, twitter:card) | [NOTICE] Page language is not declared",
+    "issues": [
+      {
+        "id": "NO_VIEWPORT",
+        "severity": "warning",
+        "title": "Not set up for mobile (no viewport tag)",
+        "detail": null,
+        "whyItMatters": "Google ranks the mobile version of your site. Without a viewport tag, phones show a shrunken desktop page.",
+        "howToFix": "Add <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> inside <head>.",
+        "category": "technical"
+      },
+      {
+        "id": "THIN_CONTENT",
+        "severity": "warning",
+        "title": "Very little text on the page",
+        "detail": "189 words of main text",
+        "whyItMatters": "Pages with only a few sentences rarely rank, because search engines cannot tell what they are about or why they are useful.",
+        "howToFix": "Add helpful text that answers what a visitor came for: details, FAQs, examples. Aim for 300+ words on pages you want to rank.",
+        "category": "content"
+      },
+      {
+        "id": "TITLE_TOO_SHORT",
+        "severity": "notice",
+        "title": "Title is too short",
+        "detail": "19 characters; aim for 30-60",
+        "whyItMatters": "A very short title wastes the most valuable spot in search results and rarely matches what people search for.",
+        "howToFix": "Expand the title to 30-60 characters: main keyword + what the page offers + brand.",
+        "category": "meta"
+      },
+      {
+        "id": "MULTIPLE_H1",
+        "severity": "notice",
+        "title": "More than one H1 heading",
+        "detail": "2 H1 headings",
+        "whyItMatters": "Several main headlines blur what the page is about. Not an error, but one clear H1 is the best practice.",
+        "howToFix": "Keep one <h1> for the main headline and change the others to <h2> or <h3>.",
+        "category": "headings"
+      },
+      {
+        "id": "MISSING_CANONICAL",
+        "severity": "notice",
+        "title": "No canonical tag",
+        "detail": null,
+        "whyItMatters": "Without a canonical, URL variants (tracking parameters, http/https, trailing slashes) can compete with each other in Google.",
+        "howToFix": "Add <link rel=\"canonical\" href=\"...\"> pointing at the page's own preferred URL. Most SEO plugins do this automatically.",
+        "category": "indexing"
+      },
+      {
+        "id": "NO_STRUCTURED_DATA",
+        "severity": "notice",
+        "title": "No structured data (schema.org)",
+        "detail": null,
+        "whyItMatters": "Structured data helps Google show rich results (stars, prices, FAQs, breadcrumbs) and helps AI search understand the page.",
+        "howToFix": "Add JSON-LD for what the page is: Organization or LocalBusiness on the homepage, Article on posts, Product on product pages.",
+        "category": "schema"
+      },
+      {
+        "id": "SOCIAL_PREVIEW_INCOMPLETE",
+        "severity": "notice",
+        "title": "Social share preview is incomplete",
+        "detail": "missing og:title, og:description, og:image, twitter:card",
+        "whyItMatters": "When the page is shared on Facebook, LinkedIn, X or in chat apps, missing Open Graph tags give a plain or broken preview and fewer clicks.",
+        "howToFix": "Add og:title, og:description and og:image (1200x630 image) plus twitter:card. Most SEO plugins have a \"social\" tab for this.",
+        "category": "social"
+      },
+      {
+        "id": "MISSING_LANG",
+        "severity": "notice",
+        "title": "Page language is not declared",
+        "detail": null,
+        "whyItMatters": "The lang attribute helps search engines, translators and screen readers handle the page correctly.",
+        "howToFix": "Add a language to the html tag, for example <html lang=\"en\">.",
+        "category": "international"
+      }
+    ],
+    "title": "sitemaps.org - Home",
+    "titleLength": 19,
+    "metaDescription": "The Sitemaps protocol enables webmasters to information earch engine about pages on their site that are available for crawling.",
+    "metaDescriptionLength": 127,
+    "h1": "sitemaps.org",
+    "h1Count": 2,
+    "h1All": [
+      "sitemaps.org",
+      "What are Sitemaps?"
+    ],
+    "h2Count": 0,
+    "canonical": null,
+    "canonicalStatus": "missing",
+    "indexable": true,
+    "metaRobots": null,
+    "xRobotsTag": null,
+    "lang": null,
+    "hasViewport": false,
+    "hreflang": [],
+    "hreflangCount": 0,
+    "ogTitle": null,
+    "ogDescription": null,
+    "ogImage": null,
+    "ogType": null,
+    "twitterCard": null,
+    "schemaTypes": [],
+    "jsonLdBlocks": 0,
+    "jsonLdInvalid": 0,
+    "imagesTotal": 0,
+    "imagesMissingAlt": 0,
+    "imagesDecorative": 0,
+    "internalLinks": 3,
+    "externalLinks": 1,
+    "nofollowLinks": 0,
+    "wordCount": 189,
+    "mixedContentCount": 0,
+    "isHttps": true,
+    "linksChecked": 4,
+    "brokenLinks": 0,
+    "brokenLinkSamples": [],
+    "responseTimeMs": 605,
+    "downloadTimeMs": 706,
+    "pageSizeKb": 4.3,
+    "htmlTruncated": false,
+    "fromSitemap": false,
+    "status": "ok",
+    "errorCode": null,
+    "errorMessage": null,
+    "auditedAt": "2026-11-12T01:38:07.321Z"
+  },
+  {
+    "rowType": "page",
+    "site": "https://docs.apify.com",
+    "input": "https://docs.apify.com/",
+    "url": "https://docs.apify.com/api",
+    "finalUrl": "https://docs.apify.com/api",
+    "statusCode": 200,
+    "redirectCount": 0,
+    "redirectChain": [],
+    "score": 81,
+    "grade": "B",
+    "criticalCount": 0,
+    "warningCount": 2,
+    "noticeCount": 2,
+    "topIssue": "Missing meta description",
+    "issuesText": "[WARNING] Missing meta description | [WARNING] Images without alt text (7 of 9 image(s) have no alt attribute) | [NOTICE] Title is too short (19 characters; aim for 30-60) | [NOTICE] No structured data (schema.org)",
+    "issues": [
+      {
+        "id": "MISSING_META_DESCRIPTION",
+        "severity": "warning",
+        "title": "Missing meta description",
+        "detail": null,
+        "whyItMatters": "The description is the grey text under your headline in Google. Without it, Google pulls random text from the page and fewer people click.",
+        "howToFix": "Add a <meta name=\"description\"> of 70-160 characters that sells the page and includes the main keyword.",
+        "category": "meta"
+      },
+      {
+        "id": "IMAGES_MISSING_ALT",
+        "severity": "warning",
+        "title": "Images without alt text",
+        "detail": "7 of 9 image(s) have no alt attribute",
+        "whyItMatters": "Alt text is how search engines and screen readers understand images. Missing alt text loses image-search traffic and hurts accessibility.",
+        "howToFix": "Add a short alt=\"...\" describing each meaningful image. Use alt=\"\" (empty) only for purely decorative images.",
+        "category": "images"
+      },
+      {
+        "id": "TITLE_TOO_SHORT",
+        "severity": "notice",
+        "title": "Title is too short",
+        "detail": "19 characters; aim for 30-60",
+        "whyItMatters": "A very short title wastes the most valuable spot in search results and rarely matches what people search for.",
+        "howToFix": "Expand the title to 30-60 characters: main keyword + what the page offers + brand.",
+        "category": "meta"
+      },
+      {
+        "id": "NO_STRUCTURED_DATA",
+        "severity": "notice",
+        "title": "No structured data (schema.org)",
+        "detail": null,
+        "whyItMatters": "Structured data helps Google show rich results (stars, prices, FAQs, breadcrumbs) and helps AI search understand the page.",
+        "howToFix": "Add JSON-LD for what the page is: Organization or LocalBusiness on the homepage, Article on posts, Product on product pages.",
+        "category": "schema"
+      }
+    ],
+    "title": "Apify Documentation",
+    "titleLength": 19,
+    "metaDescription": null,
+    "metaDescriptionLength": 0,
+    "h1": "Apify API documentation",
+    "h1Count": 1,
+    "h1All": [
+      "Apify API documentation"
+    ],
+    "h2Count": 5,
+    "canonical": "https://docs.apify.com/api",
+    "canonicalStatus": "self",
+    "indexable": true,
+    "metaRobots": null,
+    "xRobotsTag": null,
+    "lang": "en",
+    "hasViewport": true,
+    "hreflang": [
+      {
+        "lang": "en",
+        "href": "https://docs.apify.com/api"
+      },
+      {
+        "lang": "x-default",
+        "href": "https://docs.apify.com/api"
+      }
+    ],
+    "hreflangCount": 2,
+    "ogTitle": "Apify Documentation",
+    "ogDescription": null,
+    "ogImage": "https://apify.com/og-image/docs-article",
+    "ogType": null,
+    "twitterCard": "summary_large_image",
+    "schemaTypes": [],
+    "jsonLdBlocks": 0,
+    "jsonLdInvalid": 0,
+    "imagesTotal": 9,
+    "imagesMissingAlt": 7,
+    "imagesDecorative": 2,
+    "internalLinks": 28,
+    "externalLinks": 24,
+    "nofollowLinks": 0,
+    "wordCount": 352,
+    "mixedContentCount": 0,
+    "isHttps": true,
+    "linksChecked": 26,
+    "brokenLinks": 0,
+    "brokenLinkSamples": [],
+    "responseTimeMs": 897,
+    "downloadTimeMs": 1800,
+    "pageSizeKb": 56,
+    "htmlTruncated": false,
+    "fromSitemap": true,
+    "status": "ok",
+    "errorCode": null,
+    "errorMessage": null,
+    "auditedAt": "2026-11-12T01:38:07.521Z"
+  },
+  {
+    "rowType": "page",
+    "site": "https://crawlee.dev",
+    "input": "https://crawlee.dev",
+    "url": "https://crawlee.dev/",
+    "finalUrl": "https://crawlee.dev/",
+    "statusCode": 200,
+    "redirectCount": 0,
+    "redirectChain": [],
+    "score": 92,
+    "grade": "A",
+    "criticalCount": 0,
+    "warningCount": 1,
+    "noticeCount": 1,
+    "topIssue": "Very little text on the page",
+    "issuesText": "[WARNING] Very little text on the page (245 words of main text) | [NOTICE] No structured data (schema.org)",
+    "issues": [
+      {
+        "id": "THIN_CONTENT",
+        "severity": "warning",
+        "title": "Very little text on the page",
+        "detail": "245 words of main text",
+        "whyItMatters": "Pages with only a few sentences rarely rank, because search engines cannot tell what they are about or why they are useful.",
+        "howToFix": "Add helpful text that answers what a visitor came for: details, FAQs, examples. Aim for 300+ words on pages you want to rank.",
+        "category": "content"
+      },
+      {
+        "id": "NO_STRUCTURED_DATA",
+        "severity": "notice",
+        "title": "No structured data (schema.org)",
+        "detail": null,
+        "whyItMatters": "Structured data helps Google show rich results (stars, prices, FAQs, breadcrumbs) and helps AI search understand the page.",
+        "howToFix": "Add JSON-LD for what the page is: Organization or LocalBusiness on the homepage, Article on posts, Product on product pages.",
+        "category": "schema"
+      }
+    ],
+    "title": "Crawlee \u00b7 Build reliable crawlers. Fast.",
+    "titleLength": 40,
+    "metaDescription": "Crawlee helps you build and maintain your crawlers. It's open source, but built by developers who scrape millions of pages every day for a living.",
+    "metaDescriptionLength": 146,
+    "h1": "Build reliable web scrapers. Fast.",
+    "h1Count": 1,
+    "h1All": [
+      "Build reliable web scrapers. Fast."
+    ],
+    "h2Count": 1,
+    "canonical": "https://crawlee.dev/",
+    "canonicalStatus": "self",
+    "indexable": true,
+    "metaRobots": null,
+    "xRobotsTag": null,
+    "lang": "en",
+    "hasViewport": true,
+    "hreflang": [
+      {
+        "lang": "en",
+        "href": "https://crawlee.dev/"
+      },
+      {
+        "lang": "x-default",
+        "href": "https://crawlee.dev/"
+      }
+    ],
+    "hreflangCount": 2,
+    "ogTitle": "Crawlee for JavaScript \u00b7 Build reliable crawlers. Fast.",
+    "ogDescription": "Crawlee helps you build and maintain your crawlers. It's open source, but built by developers who scrape millions of pages every day for a living.",
+    "ogImage": "https://crawlee.dev/img/crawlee-og.png",
+    "ogType": null,
+    "twitterCard": "summary_large_image",
+    "schemaTypes": [],
+    "jsonLdBlocks": 0,
+    "jsonLdInvalid": 0,
+    "imagesTotal": 14,
+    "imagesMissingAlt": 0,
+    "imagesDecorative": 0,
+    "internalLinks": 8,
+    "externalLinks": 9,
+    "nofollowLinks": 0,
+    "wordCount": 245,
+    "mixedContentCount": 0,
+    "isHttps": true,
+    "linksChecked": 17,
+    "brokenLinks": 0,
+    "brokenLinkSamples": [],
+    "responseTimeMs": 696,
+    "downloadTimeMs": 1806,
+    "pageSizeKb": 52.3,
+    "htmlTruncated": false,
+    "fromSitemap": false,
+    "status": "ok",
+    "errorCode": null,
+    "errorMessage": null,
+    "auditedAt": "2026-11-12T01:38:09.317Z"
+  },
+  {
+    "rowType": "page",
+    "site": "https://crawlee.dev",
+    "input": "https://crawlee.dev",
+    "url": "https://crawlee.dev/blog",
+    "finalUrl": "https://crawlee.dev/blog",
+    "statusCode": 200,
+    "redirectCount": 0,
+    "redirectChain": [],
+    "score": 88,
+    "grade": "B",
+    "criticalCount": 0,
+    "warningCount": 2,
+    "noticeCount": 0,
+    "topIssue": "No H1 heading",
+    "issuesText": "[WARNING] No H1 heading | [WARNING] Title is too long (Google will cut it off) (107 characters; aim for 30-60)",
+    "issues": [
+      {
+        "id": "MISSING_H1",
+        "severity": "warning",
+        "title": "No H1 heading",
+        "detail": null,
+        "whyItMatters": "The H1 is the main headline on the page. It tells visitors and search engines what the page is about.",
+        "howToFix": "Add one <h1> near the top of the page that matches the page topic (it can be close to the title).",
+        "category": "headings"
+      },
+      {
+        "id": "TITLE_TOO_LONG",
+        "severity": "warning",
+        "title": "Title is too long (Google will cut it off)",
+        "detail": "107 characters; aim for 30-60",
+        "whyItMatters": "Google shows roughly 60 characters. The rest is replaced with \"...\", which can hide your key message.",
+        "howToFix": "Shorten the title to 60 characters or fewer and put the most important words first.",
+        "category": "meta"
+      }
+    ],
+    "title": "Crawlee Blog - learn how to build better scrapers | Crawlee for JavaScript \u00b7 Build reliable crawlers. Fast.",
+    "titleLength": 107,
+    "metaDescription": "Guides and tutorials on using Crawlee, the most reliable open-source web scraping and browser automation library for JavaScript and Node.js developers.",
+    "metaDescriptionLength": 151,
+    "h1": null,
+    "h1Count": 0,
+    "h1All": [],
+    "h2Count": 12,
+    "canonical": "https://crawlee.dev/blog",
+    "canonicalStatus": "self",
+    "indexable": true,
+    "metaRobots": null,
+    "xRobotsTag": null,
+    "lang": "en",
+    "hasViewport": true,
+    "hreflang": [
+      {
+        "lang": "en",
+        "href": "https://crawlee.dev/blog"
+      },
+      {
+        "lang": "x-default",
+        "href": "https://crawlee.dev/blog"
+      }
+    ],
+    "hreflangCount": 2,
+    "ogTitle": "Crawlee Blog - learn how to build better scrapers | Crawlee for JavaScript \u00b7 Build reliable crawlers. Fast.",
+    "ogDescription": "Crawlee helps you build and maintain your crawlers. It's open source, but built by developers who scrape millions of pages every day for a living.",
+    "ogImage": "https://crawlee.dev/img/crawlee-js-og.png",
+    "ogType": null,
+    "twitterCard": "summary_large_image",
+    "schemaTypes": [
+      "Blog",
+      "BlogPosting",
+      "Person",
+      "ImageObject"
+    ],
+    "jsonLdBlocks": 1,
+    "jsonLdInvalid": 0,
+    "imagesTotal": 28,
+    "imagesMissingAlt": 0,
+    "imagesDecorative": 0,
+    "internalLinks": 41,
+    "externalLinks": 29,
+    "nofollowLinks": 0,
+    "wordCount": 1108,
+    "mixedContentCount": 0,
+    "isHttps": true,
+    "linksChecked": 20,
+    "brokenLinks": 0,
+    "brokenLinkSamples": [],
+    "responseTimeMs": 95,
+    "downloadTimeMs": 1802,
+    "pageSizeKb": 65.2,
+    "htmlTruncated": false,
+    "fromSitemap": true,
+    "status": "ok",
+    "errorCode": null,
+    "errorMessage": null,
+    "auditedAt": "2026-11-12T01:38:09.694Z"
+  },
+  {
+    "rowType": "page",
+    "site": "https://www.sitemaps.org",
+    "input": "https://www.sitemaps.org/",
+    "url": "https://www.sitemaps.org/protocol.html",
+    "finalUrl": "https://www.sitemaps.org/protocol.html",
+    "statusCode": 200,
+    "redirectCount": 0,
+    "redirectChain": [],
+    "score": 67,
+    "grade": "D",
+    "criticalCount": 0,
+    "warningCount": 2,
+    "noticeCount": 6,
+    "topIssue": "Missing meta description",
+    "issuesText": "[WARNING] Missing meta description | [WARNING] Not set up for mobile (no viewport tag) | [NOTICE] Title is too short (23 characters; aim for 30-60) | [NOTICE] More than one H1 heading (2 H1 headings) | [NOTICE] No canonical tag | [NOTICE] No structured data (schema.org) | [NOTICE] Social share preview is incomplete (missing og:title, og:description, og:image, twitter:card) | [NOTICE] Page language is not declared",
+    "issues": [
+      {
+        "id": "MISSING_META_DESCRIPTION",
+        "severity": "warning",
+        "title": "Missing meta description",
+        "detail": null,
+        "whyItMatters": "The description is the grey text under your headline in Google. Without it, Google pulls random text from the page and fewer people click.",
+        "howToFix": "Add a <meta name=\"description\"> of 70-160 characters that sells the page and includes the main keyword.",
+        "category": "meta"
+      },
+      {
+        "id": "NO_VIEWPORT",
+        "severity": "warning",
+        "title": "Not set up for mobile (no viewport tag)",
+        "detail": null,
+        "whyItMatters": "Google ranks the mobile version of your site. Without a viewport tag, phones show a shrunken desktop page.",
+        "howToFix": "Add <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> inside <head>.",
+        "category": "technical"
+      },
+      {
+        "id": "TITLE_TOO_SHORT",
+        "severity": "notice",
+        "title": "Title is too short",
+        "detail": "23 characters; aim for 30-60",
+        "whyItMatters": "A very short title wastes the most valuable spot in search results and rarely matches what people search for.",
+        "howToFix": "Expand the title to 30-60 characters: main keyword + what the page offers + brand.",
+        "category": "meta"
+      },
+      {
+        "id": "MULTIPLE_H1",
+        "severity": "notice",
+        "title": "More than one H1 heading",
+        "detail": "2 H1 headings",
+        "whyItMatters": "Several main headlines blur what the page is about. Not an error, but one clear H1 is the best practice.",
+        "howToFix": "Keep one <h1> for the main headline and change the others to <h2> or <h3>.",
+        "category": "headings"
+      },
+      {
+        "id": "MISSING_CANONICAL",
+        "severity": "notice",
+        "title": "No canonical tag",
+        "detail": null,
+        "whyItMatters": "Without a canonical, URL variants (tracking parameters, http/https, trailing slashes) can compete with each other in Google.",
+        "howToFix": "Add <link rel=\"canonical\" href=\"...\"> pointing at the page's own preferred URL. Most SEO plugins do this automatically.",
+        "category": "indexing"
+      },
+      {
+        "id": "NO_STRUCTURED_DATA",
+        "severity": "notice",
+        "title": "No structured data (schema.org)",
+        "detail": null,
+        "whyItMatters": "Structured data helps Google show rich results (stars, prices, FAQs, breadcrumbs) and helps AI search understand the page.",
+        "howToFix": "Add JSON-LD for what the page is: Organization or LocalBusiness on the homepage, Article on posts, Product on product pages.",
+        "category": "schema"
+      },
+      {
+        "id": "SOCIAL_PREVIEW_INCOMPLETE",
+        "severity": "notice",
+        "title": "Social share preview is incomplete",
+        "detail": "missing og:title, og:description, og:image, twitter:card",
+        "whyItMatters": "When the page is shared on Facebook, LinkedIn, X or in chat apps, missing Open Graph tags give a plain or broken preview and fewer clicks.",
+        "howToFix": "Add og:title, og:description and og:image (1200x630 image) plus twitter:card. Most SEO plugins have a \"social\" tab for this.",
+        "category": "social"
+      },
+      {
+        "id": "MISSING_LANG",
+        "severity": "notice",
+        "title": "Page language is not declared",
+        "detail": null,
+        "whyItMatters": "The lang attribute helps search engines, translators and screen readers handle the page correctly.",
+        "howToFix": "Add a language to the html tag, for example <html lang=\"en\">.",
+        "category": "international"
+      }
+    ],
+    "title": "sitemaps.org - Protocol",
+    "titleLength": 23,
+    "metaDescription": null,
+    "metaDescriptionLength": 0,
+    "h1": "sitemaps.org",
+    "h1Count": 2,
+    "h1All": [
+      "sitemaps.org",
+      "Sitemaps XML format"
+    ],
+    "h2Count": 9,
+    "canonical": null,
+    "canonicalStatus": "missing",
+    "indexable": true,
+    "metaRobots": "all",
+    "xRobotsTag": null,
+    "lang": null,
+    "hasViewport": false,
+    "hreflang": [],
+    "hreflangCount": 0,
+    "ogTitle": null,
+    "ogDescription": null,
+    "ogImage": null,
+    "ogType": null,
+    "twitterCard": null,
+    "schemaTypes": [],
+    "jsonLdBlocks": 0,
+    "jsonLdInvalid": 0,
+    "imagesTotal": 0,
+    "imagesMissingAlt": 0,
+    "imagesDecorative": 0,
+    "internalLinks": 6,
+    "externalLinks": 7,
+    "nofollowLinks": 0,
+    "wordCount": 3008,
+    "mixedContentCount": 0,
+    "isHttps": true,
+    "linksChecked": 13,
+    "brokenLinks": 0,
+    "brokenLinkSamples": [],
+    "responseTimeMs": 604,
+    "downloadTimeMs": 1101,
+    "pageSizeKb": 44.2,
+    "htmlTruncated": false,
+    "fromSitemap": true,
+    "status": "ok",
+    "errorCode": null,
+    "errorMessage": null,
+    "auditedAt": "2026-11-12T01:38:10.072Z"
+  },
+  {
+    "rowType": "page",
+    "site": "https://web.dev",
+    "input": "https://web.dev/",
+    "url": "https://web.dev/",
+    "finalUrl": "https://web.dev/",
+    "statusCode": 200,
+    "redirectCount": 0,
+    "redirectChain": [],
+    "score": 80,
+    "grade": "B",
+    "criticalCount": 0,
+    "warningCount": 2,
+    "noticeCount": 3,
+    "topIssue": "No H1 heading",
+    "issuesText": "[WARNING] No H1 heading | [WARNING] Invalid hreflang language code (invalid: pt-BR-cn, es-419-cn) | [NOTICE] Title is too short (7 characters; aim for 30-60) | [NOTICE] Meta description is too short (66 characters; aim for 70-160) | [NOTICE] Server response could be faster (1.5 s until the server answered (aim for under 0.8 s))",
+    "issues": [
+      {
+        "id": "MISSING_H1",
+        "severity": "warning",
+        "title": "No H1 heading",
+        "detail": null,
+        "whyItMatters": "The H1 is the main headline on the page. It tells visitors and search engines what the page is about.",
+        "howToFix": "Add one <h1> near the top of the page that matches the page topic (it can be close to the title).",
+        "category": "headings"
+      },
+      {
+        "id": "HREFLANG_INVALID",
+        "severity": "warning",
+        "title": "Invalid hreflang language code",
+        "detail": "invalid: pt-BR-cn, es-419-cn",
+        "whyItMatters": "Google ignores hreflang tags with bad codes, so visitors may see the wrong language version.",
+        "howToFix": "Use ISO codes like \"en\", \"en-US\", \"es-MX\" or \"x-default\" in every hreflang tag.",
+        "category": "international"
+      },
+      {
+        "id": "TITLE_TOO_SHORT",
+        "severity": "notice",
+        "title": "Title is too short",
+        "detail": "7 characters; aim for 30-60",
+        "whyItMatters": "A very short title wastes the most valuable spot in search results and rarely matches what people search for.",
+        "howToFix": "Expand the title to 30-60 characters: main keyword + what the page offers + brand.",
+        "category": "meta"
+      },
+      {
+        "id": "DESCRIPTION_TOO_SHORT",
+        "severity": "notice",
+        "title": "Meta description is too short",
+        "detail": "66 characters; aim for 70-160",
+        "whyItMatters": "A short description gives searchers little reason to click and Google may replace it with page text.",
+        "howToFix": "Write 70-160 characters that explain what the visitor gets and why to click.",
+        "category": "meta"
+      },
+      {
+        "id": "SLOWISH_RESPONSE",
+        "severity": "notice",
+        "title": "Server response could be faster",
+        "detail": "1.5 s until the server answered (aim for under 0.8 s)",
+        "whyItMatters": "Pages that take over a second to arrive feel sluggish and leave less time budget for images and scripts.",
+        "howToFix": "Enable caching or a CDN. Check full speed with our Bulk PageSpeed Checker.",
+        "category": "performance"
+      }
+    ],
+    "title": "web.dev",
+    "titleLength": 7,
+    "metaDescription": "Guidance to build modern web experiences that work on any browser.",
+    "metaDescriptionLength": 66,
+    "h1": null,
+    "h1Count": 0,
+    "h1All": [],
+    "h2Count": 9,
+    "canonical": "https://web.dev/",
+    "canonicalStatus": "self",
+    "indexable": true,
+    "metaRobots": null,
+    "xRobotsTag": null,
+    "lang": "en",
+    "hasViewport": true,
+    "hreflang": [
+      {
+        "lang": "en",
+        "href": "https://web.dev/"
+      },
+      {
+        "lang": "x-default",
+        "href": "https://web.dev/"
+      },
+      {
+        "lang": "ar",
+        "href": "https://web.dev/?hl=ar"
+      },
+      {
+        "lang": "bn",
+        "href": "https://web.dev/?hl=bn"
+      },
+      {
+        "lang": "zh-Hans",
+        "href": "https://web.dev/?hl=zh-cn"
+      },
+      {
+        "lang": "zh-Hant",
+        "href": "https://web.dev/?hl=zh-tw"
+      },
+      {
+        "lang": "fa",
+        "href": "https://web.dev/?hl=fa"
+      },
+      {
+        "lang": "fr",
+        "href": "https://web.dev/?hl=fr"
+      },
+      {
+        "lang": "de",
+        "href": "https://web.dev/?hl=de"
+      },
+      {
+        "lang": "he",
+        "href": "https://web.dev/?hl=he"
+      },
+      {
+        "lang": "hi",
+        "href": "https://web.dev/?hl=hi"
+      },
+      {
+        "lang": "id",
+        "href": "https://web.dev/?hl=id"
+      },
+      {
+        "lang": "it",
+        "href": "https://web.dev/?hl=it"
+      },
+      {
+        "lang": "ja",
+        "href": "https://web.dev/?hl=ja"
+      },
+      {
+        "lang": "ko",
+        "href": "https://web.dev/?hl=ko"
+      },
+      {
+        "lang": "pl",
+        "href": "https://web.dev/?hl=pl"
+      },
+      {
+        "lang": "pt-BR",
+        "href": "https://web.dev/?hl=pt-br"
+      },
+      {
+        "lang": "ru",
+        "href": "https://web.dev/?hl=ru"
+      },
+      {
+        "lang": "es-419",
+        "href": "https://web.dev/?hl=es-419"
+      },
+      {
+        "lang": "th",
+        "href": "https://web.dev/?hl=th"
+      },
+      {
+        "lang": "tr",
+        "href": "https://web.dev/?hl=tr"
+      },
+      {
+        "lang": "vi",
+        "href": "https://web.dev/?hl=vi"
+      },
+      {
+        "lang": "en-cn",
+        "href": "https://web.developers.google.cn/"
+      },
+      {
+        "lang": "x-default",
+        "href": "https://web.developers.google.cn/"
+      },
+      {
+        "lang": "ar-cn",
+        "href": "https://web.developers.google.cn/?hl=ar"
+      },
+      {
+        "lang": "bn-cn",
+        "href": "https://web.developers.google.cn/?hl=bn"
+      },
+      {
+        "lang": "zh-Hans-cn",
+        "href": "https://web.developers.google.cn/?hl=zh-cn"
+      },
+      {
+        "lang": "zh-Hant-cn",
+        "href": "https://web.developers.google.cn/?hl=zh-tw"
+      },
+      {
+        "lang": "fa-cn",
+        "href": "https://web.developers.google.cn/?hl=fa"
+      },
+      {
+        "lang": "fr-cn",
+        "href": "https://web.developers.google.cn/?hl=fr"
+      },
+      {
+        "lang": "de-cn",
+        "href": "https://web.developers.google.cn/?hl=de"
+      },
+      {
+        "lang": "he-cn",
+        "href": "https://web.developers.google.cn/?hl=he"
+      },
+      {
+        "lang": "hi-cn",
+        "href": "https://web.developers.google.cn/?hl=hi"
+      },
+      {
+        "lang": "id-cn",
+        "href": "https://web.developers.google.cn/?hl=id"
+      },
+      {
+        "lang": "it-cn",
+        "href": "https://web.developers.google.cn/?hl=it"
+      },
+      {
+        "lang": "ja-cn",
+        "href": "https://web.developers.google.cn/?hl=ja"
+      },
+      {
+        "lang": "ko-cn",
+        "href": "https://web.developers.google.cn/?hl=ko"
+      },
+      {
+        "lang": "pl-cn",
+        "href": "https://web.developers.google.cn/?hl=pl"
+      },
+      {
+        "lang": "pt-BR-cn",
+        "href": "https://web.developers.google.cn/?hl=pt-br"
+      },
+      {
+        "lang": "ru-cn",
+        "href": "https://web.developers.google.cn/?hl=ru"
+      },
+      {
+        "lang": "es-419-cn",
+        "href": "https://web.developers.google.cn/?hl=es-419"
+      },
+      {
+        "lang": "th-cn",
+        "href": "https://web.developers.google.cn/?hl=th"
+      },
+      {
+        "lang": "tr-cn",
+        "href": "https://web.developers.google.cn/?hl=tr"
+      },
+      {
+        "lang": "vi-cn",
+        "href": "https://web.developers.google.cn/?hl=vi"
+      }
+    ],
+    "hreflangCount": 44,
+    "ogTitle": "web.dev",
+    "ogDescription": "Guidance to build modern web experiences that work on any browser.",
+    "ogImage": "https://web.dev/images/social-wide.jpg",
+    "ogType": "website",
+    "twitterCard": "summary",
+    "schemaTypes": [
+      "Article",
+      "Organization",
+      "WebSite",
+      "SearchAction"
+    ],
+    "jsonLdBlocks": 3,
+    "jsonLdInvalid": 0,
+    "imagesTotal": 10,
+    "imagesMissingAlt": 0,
+    "imagesDecorative": 8,
+    "internalLinks": 49,
+    "externalLinks": 12,
+    "nofollowLinks": 0,
+    "wordCount": 908,
+    "mixedContentCount": 0,
+    "isHttps": true,
+    "linksChecked": 20,
+    "brokenLinks": 0,
+    "brokenLinkSamples": [],
+    "responseTimeMs": 1487,
+    "downloadTimeMs": 5511,
+    "pageSizeKb": 130.2,
+    "htmlTruncated": false,
+    "fromSitemap": false,
+    "status": "ok",
+    "errorCode": null,
+    "errorMessage": null,
+    "auditedAt": "2026-11-12T01:38:11.768Z"
+  },
+  {
+    "rowType": "page",
+    "site": "https://web.dev",
+    "input": "https://web.dev/",
+    "url": "https://web.dev/html",
+    "finalUrl": "https://web.dev/html",
+    "statusCode": 200,
+    "redirectCount": 0,
+    "redirectChain": [],
+    "score": 77,
+    "grade": "C",
+    "criticalCount": 0,
+    "warningCount": 3,
+    "noticeCount": 1,
+    "topIssue": "Missing meta description",
+    "issuesText": "[WARNING] Missing meta description | [WARNING] No H1 heading | [WARNING] Invalid hreflang language code (invalid: pt-BR-cn, es-419-cn) | [NOTICE] Title is too short (14 characters; aim for 30-60)",
+    "issues": [
+      {
+        "id": "MISSING_META_DESCRIPTION",
+        "severity": "warning",
+        "title": "Missing meta description",
+        "detail": null,
+        "whyItMatters": "The description is the grey text under your headline in Google. Without it, Google pulls random text from the page and fewer people click.",
+        "howToFix": "Add a <meta name=\"description\"> of 70-160 characters that sells the page and includes the main keyword.",
+        "category": "meta"
+      },
+      {
+        "id": "MISSING_H1",
+        "severity": "warning",
+        "title": "No H1 heading",
+        "detail": null,
+        "whyItMatters": "The H1 is the main headline on the page. It tells visitors and search engines what the page is about.",
+        "howToFix": "Add one <h1> near the top of the page that matches the page topic (it can be close to the title).",
+        "category": "headings"
+      },
+      {
+        "id": "HREFLANG_INVALID",
+        "severity": "warning",
+        "title": "Invalid hreflang language code",
+        "detail": "invalid: pt-BR-cn, es-419-cn",
+        "whyItMatters": "Google ignores hreflang tags with bad codes, so visitors may see the wrong language version.",
+        "howToFix": "Use ISO codes like \"en\", \"en-US\", \"es-MX\" or \"x-default\" in every hreflang tag.",
+        "category": "international"
+      },
+      {
+        "id": "TITLE_TOO_SHORT",
+        "severity": "notice",
+        "title": "Title is too short",
+        "detail": "14 characters; aim for 30-60",
+        "whyItMatters": "A very short title wastes the most valuable spot in search results and rarely matches what people search for.",
+        "howToFix": "Expand the title to 30-60 characters: main keyword + what the page offers + brand.",
+        "category": "meta"
+      }
+    ],
+    "title": "HTML | web.dev",
+    "titleLength": 14,
+    "metaDescription": null,
+    "metaDescriptionLength": 0,
+    "h1": null,
+    "h1Count": 0,
+    "h1All": [],
+    "h2Count": 0,
+    "canonical": "https://web.dev/html",
+    "canonicalStatus": "self",
+    "indexable": true,
+    "metaRobots": null,
+    "xRobotsTag": null,
+    "lang": "en",
+    "hasViewport": true,
+    "hreflang": [
+      {
+        "lang": "en",
+        "href": "https://web.dev/html"
+      },
+      {
+        "lang": "x-default",
+        "href": "https://web.dev/html"
+      },
+      {
+        "lang": "ar",
+        "href": "https://web.dev/html?hl=ar"
+      },
+      {
+        "lang": "bn",
+        "href": "https://web.dev/html?hl=bn"
+      },
+      {
+        "lang": "zh-Hans",
+        "href": "https://web.dev/html?hl=zh-cn"
+      },
+      {
+        "lang": "zh-Hant",
+        "href": "https://web.dev/html?hl=zh-tw"
+      },
+      {
+        "lang": "fa",
+        "href": "https://web.dev/html?hl=fa"
+      },
+      {
+        "lang": "fr",
+        "href": "https://web.dev/html?hl=fr"
+      },
+      {
+        "lang": "de",
+        "href": "https://web.dev/html?hl=de"
+      },
+      {
+        "lang": "he",
+        "href": "https://web.dev/html?hl=he"
+      },
+      {
+        "lang": "hi",
+        "href": "https://web.dev/html?hl=hi"
+      },
+      {
+        "lang": "id",
+        "href": "https://web.dev/html?hl=id"
+      },
+      {
+        "lang": "it",
+        "href": "https://web.dev/html?hl=it"
+      },
+      {
+        "lang": "ja",
+        "href": "https://web.dev/html?hl=ja"
+      },
+      {
+        "lang": "ko",
+        "href": "https://web.dev/html?hl=ko"
+      },
+      {
+        "lang": "pl",
+        "href": "https://web.dev/html?hl=pl"
+      },
+      {
+        "lang": "pt-BR",
+        "href": "https://web.dev/html?hl=pt-br"
+      },
+      {
+        "lang": "ru",
+        "href": "https://web.dev/html?hl=ru"
+      },
+      {
+        "lang": "es-419",
+        "href": "https://web.dev/html?hl=es-419"
+      },
+      {
+        "lang": "th",
+        "href": "https://web.dev/html?hl=th"
+      },
+      {
+        "lang": "tr",
+        "href": "https://web.dev/html?hl=tr"
+      },
+      {
+        "lang": "vi",
+        "href": "https://web.dev/html?hl=vi"
+      },
+      {
+        "lang": "en-cn",
+        "href": "https://web.developers.google.cn/html"
+      },
+      {
+        "lang": "x-default",
+        "href": "https://web.developers.google.cn/html"
+      },
+      {
+        "lang": "ar-cn",
+        "href": "https://web.developers.google.cn/html?hl=ar"
+      },
+      {
+        "lang": "bn-cn",
+        "href": "https://web.developers.google.cn/html?hl=bn"
+      },
+      {
+        "lang": "zh-Hans-cn",
+        "href": "https://web.developers.google.cn/html?hl=zh-cn"
+      },
+      {
+        "lang": "zh-Hant-cn",
+        "href": "https://web.developers.google.cn/html?hl=zh-tw"
+      },
+      {
+        "lang": "fa-cn",
+        "href": "https://web.developers.google.cn/html?hl=fa"
+      },
+      {
+        "lang": "fr-cn",
+        "href": "https://web.developers.google.cn/html?hl=fr"
+      },
+      {
+        "lang": "de-cn",
+        "href": "https://web.developers.google.cn/html?hl=de"
+      },
+      {
+        "lang": "he-cn",
+        "href": "https://web.developers.google.cn/html?hl=he"
+      },
+      {
+        "lang": "hi-cn",
+        "href": "https://web.developers.google.cn/html?hl=hi"
+      },
+      {
+        "lang": "id-cn",
+        "href": "https://web.developers.google.cn/html?hl=id"
+      },
+      {
+        "lang": "it-cn",
+        "href": "https://web.developers.google.cn/html?hl=it"
+      },
+      {
+        "lang": "ja-cn",
+        "href": "https://web.developers.google.cn/html?hl=ja"
+      },
+      {
+        "lang": "ko-cn",
+        "href": "https://web.developers.google.cn/html?hl=ko"
+      },
+      {
+        "lang": "pl-cn",
+        "href": "https://web.developers.google.cn/html?hl=pl"
+      },
+      {
+        "lang": "pt-BR-cn",
+        "href": "https://web.developers.google.cn/html?hl=pt-br"
+      },
+      {
+        "lang": "ru-cn",
+        "href": "https://web.developers.google.cn/html?hl=ru"
+      },
+      {
+        "lang": "es-419-cn",
+        "href": "https://web.developers.google.cn/html?hl=es-419"
+      },
+      {
+        "lang": "th-cn",
+        "href": "https://web.developers.google.cn/html?hl=th"
+      },
+      {
+        "lang": "tr-cn",
+        "href": "https://web.developers.google.cn/html?hl=tr"
+      },
+      {
+        "lang": "vi-cn",
+        "href": "https://web.developers.google.cn/html?hl=vi"
+      }
+    ],
+    "hreflangCount": 44,
+    "ogTitle": "HTML | web.dev",
+    "ogDescription": null,
+    "ogImage": "https://web.dev/static/images/social-wide.jpg",
+    "ogType": "website",
+    "twitterCard": "summary",
+    "schemaTypes": [
+      "Article"
+    ],
+    "jsonLdBlocks": 1,
+    "jsonLdInvalid": 0,
+    "imagesTotal": 13,
+    "imagesMissingAlt": 0,
+    "imagesDecorative": 11,
+    "internalLinks": 40,
+    "externalLinks": 16,
+    "nofollowLinks": 0,
+    "wordCount": 1084,
+    "mixedContentCount": 0,
+    "isHttps": true,
+    "linksChecked": 34,
+    "brokenLinks": 0,
+    "brokenLinkSamples": [],
+    "responseTimeMs": 284,
+    "downloadTimeMs": 290,
+    "pageSizeKb": 126.5,
+    "htmlTruncated": false,
+    "fromSitemap": false,
+    "status": "ok",
+    "errorCode": null,
+    "errorMessage": null,
+    "auditedAt": "2026-11-12T01:38:15.395Z"
+  },
+  {
+    "rowType": "site-summary",
+    "site": "https://crawlee.dev",
+    "siteScore": 90,
+    "grade": "A",
+    "averagePageScore": 90,
+    "sitePenalty": 0,
+    "pagesAudited": 2,
+    "pagesFailed": 0,
+    "brokenPages": 0,
+    "pagesWithCriticalIssues": 0,
+    "issueCounts": {
+      "critical": 0,
+      "warning": 3,
+      "notice": 1
+    },
+    "topFixes": [
+      {
+        "rank": 1,
+        "id": "MISSING_H1",
+        "severity": "warning",
+        "fix": "No H1 heading",
+        "pagesAffected": 1,
+        "percentOfPages": 50,
+        "whyItMatters": "The H1 is the main headline on the page. It tells visitors and search engines what the page is about.",
+        "howToFix": "Add one <h1> near the top of the page that matches the page topic (it can be close to the title).",
+        "exampleUrls": [
+          "https://crawlee.dev/blog"
+        ]
+      },
+      {
+        "rank": 2,
+        "id": "THIN_CONTENT",
+        "severity": "warning",
+        "fix": "Very little text on the page",
+        "pagesAffected": 1,
+        "percentOfPages": 50,
+        "whyItMatters": "Pages with only a few sentences rarely rank, because search engines cannot tell what they are about or why they are useful.",
+        "howToFix": "Add helpful text that answers what a visitor came for: details, FAQs, examples. Aim for 300+ words on pages you want to rank.",
+        "exampleUrls": [
+          "https://crawlee.dev/"
+        ]
+      },
+      {
+        "rank": 3,
+        "id": "TITLE_TOO_LONG",
+        "severity": "warning",
+        "fix": "Title is too long (Google will cut it off)",
+        "pagesAffected": 1,
+        "percentOfPages": 50,
+        "whyItMatters": "Google shows roughly 60 characters. The rest is replaced with \"...\", which can hide your key message.",
+        "howToFix": "Shorten the title to 60 characters or fewer and put the most important words first.",
+        "exampleUrls": [
+          "https://crawlee.dev/blog"
+        ]
+      },
+      {
+        "rank": 4,
+        "id": "NO_STRUCTURED_DATA",
+        "severity": "notice",
+        "fix": "No structured data (schema.org)",
+        "pagesAffected": 1,
+        "percentOfPages": 50,
+        "whyItMatters": "Structured data helps Google show rich results (stars, prices, FAQs, breadcrumbs) and helps AI search understand the page.",
+        "howToFix": "Add JSON-LD for what the page is: Organization or LocalBusiness on the homepage, Article on posts, Product on product pages.",
+        "exampleUrls": [
+          "https://crawlee.dev/"
+        ]
+      }
+    ],
+    "siteIssues": [],
+    "duplicateTitles": [],
+    "duplicateDescriptions": [],
+    "lowestScoringPages": [
+      {
+        "url": "https://crawlee.dev/blog",
+        "score": 88,
+        "grade": "B"
+      },
+      {
+        "url": "https://crawlee.dev/",
+        "score": 92,
+        "grade": "A"
+      }
+    ],
+    "failedPages": [],
+    "auditSource": "sitemap",
+    "sitemapUrls": [
+      "https://crawlee.dev/sitemap.xml"
+    ],
+    "robotsTxtFound": true,
+    "auditedAt": "2026-11-12T01:38:15.481Z",
+    "pagesSkippedOverCap": 22,
+    "reportUrl": "https://api.apify.com/v2/key-value-stores/KQO8gkyJzGzmLe4jM/records/REPORT?signature=YphxTr65wdaOlaARPrL5"
+  },
+  {
+    "rowType": "site-summary",
+    "site": "https://docs.apify.com",
+    "siteScore": 79,
+    "grade": "C",
+    "averagePageScore": 84,
+    "sitePenalty": 5,
+    "pagesAudited": 2,
+    "pagesFailed": 0,
+    "brokenPages": 0,
+    "pagesWithCriticalIssues": 0,
+    "issueCounts": {
+      "critical": 0,
+      "warning": 5,
+      "notice": 4
+    },
+    "topFixes": [
+      {
+        "rank": 1,
+        "id": "DUPLICATE_TITLES",
+        "severity": "warning",
+        "fix": "Several pages share the same title",
+        "pagesAffected": 2,
+        "percentOfPages": 100,
+        "whyItMatters": "When pages have identical titles, Google struggles to pick which to rank and searchers cannot tell them apart.",
+        "howToFix": "Give each page its own title that names what is unique about it.",
+        "exampleUrls": [
+          "https://docs.apify.com/",
+          "https://docs.apify.com/api"
+        ]
+      },
+      {
+        "rank": 2,
+        "id": "MISSING_META_DESCRIPTION",
+        "severity": "warning",
+        "fix": "Missing meta description",
+        "pagesAffected": 2,
+        "percentOfPages": 100,
+        "whyItMatters": "The description is the grey text under your headline in Google. Without it, Google pulls random text from the page and fewer people click.",
+        "howToFix": "Add a <meta name=\"description\"> of 70-160 characters that sells the page and includes the main keyword.",
+        "exampleUrls": [
+          "https://docs.apify.com/",
+          "https://docs.apify.com/api"
+        ]
+      },
+      {
+        "rank": 3,
+        "id": "TITLE_TOO_SHORT",
+        "severity": "notice",
+        "fix": "Title is too short",
+        "pagesAffected": 2,
+        "percentOfPages": 100,
+        "whyItMatters": "A very short title wastes the most valuable spot in search results and rarely matches what people search for.",
+        "howToFix": "Expand the title to 30-60 characters: main keyword + what the page offers + brand.",
+        "exampleUrls": [
+          "https://docs.apify.com/",
+          "https://docs.apify.com/api"
+        ]
+      },
+      {
+        "rank": 4,
+        "id": "NO_STRUCTURED_DATA",
+        "severity": "notice",
+        "fix": "No structured data (schema.org)",
+        "pagesAffected": 2,
+        "percentOfPages": 100,
+        "whyItMatters": "Structured data helps Google show rich results (stars, prices, FAQs, breadcrumbs) and helps AI search understand the page.",
+        "howToFix": "Add JSON-LD for what the page is: Organization or LocalBusiness on the homepage, Article on posts, Product on product pages.",
+        "exampleUrls": [
+          "https://docs.apify.com/",
+          "https://docs.apify.com/api"
+        ]
+      },
+      {
+        "rank": 5,
+        "id": "IMAGES_MISSING_ALT",
+        "severity": "warning",
+        "fix": "Images without alt text",
+        "pagesAffected": 1,
+        "percentOfPages": 50,
+        "whyItMatters": "Alt text is how search engines and screen readers understand images. Missing alt text loses image-search traffic and hurts accessibility.",
+        "howToFix": "Add a short alt=\"...\" describing each meaningful image. Use alt=\"\" (empty) only for purely decorative images.",
+        "exampleUrls": [
+          "https://docs.apify.com/api"
+        ]
+      }
+    ],
+    "siteIssues": [
+      {
+        "id": "DUPLICATE_TITLES",
+        "severity": "warning",
+        "title": "Several pages share the same title",
+        "detail": "2 pages in 1 group(s), e.g. \"Apify Documentation\" on 2 pages",
+        "whyItMatters": "When pages have identical titles, Google struggles to pick which to rank and searchers cannot tell them apart.",
+        "howToFix": "Give each page its own title that names what is unique about it.",
+        "affected": 2,
+        "exampleUrls": [
+          "https://docs.apify.com/",
+          "https://docs.apify.com/api"
+        ]
+      }
+    ],
+    "duplicateTitles": [
+      {
+        "value": "Apify Documentation",
+        "count": 2,
+        "urls": [
+          "https://docs.apify.com/",
+          "https://docs.apify.com/api"
+        ]
+      }
+    ],
+    "duplicateDescriptions": [],
+    "lowestScoringPages": [
+      {
+        "url": "https://docs.apify.com/api",
+        "score": 81,
+        "grade": "B"
+      },
+      {
+        "url": "https://docs.apify.com/",
+        "score": 86,
+        "grade": "B"
+      }
+    ],
+    "failedPages": [],
+    "auditSource": "sitemap",
+    "sitemapUrls": [
+      "https://docs.apify.com/sitemap_base.xml"
+    ],
+    "robotsTxtFound": true,
+    "auditedAt": "2026-11-12T01:38:15.482Z",
+    "pagesSkippedOverCap": 22,
+    "reportUrl": "https://api.apify.com/v2/key-value-stores/KQO8gkyJzGzmLe4jM/records/REPORT?signature=YphxTr65wdaOlaARPrL5"
+  },
+  {
+    "rowType": "site-summary",
+    "site": "https://www.sitemaps.org",
+    "siteScore": 69,
+    "grade": "D",
+    "averagePageScore": 69,
+    "sitePenalty": 0,
+    "pagesAudited": 2,
+    "pagesFailed": 0,
+    "brokenPages": 0,
+    "pagesWithCriticalIssues": 0,
+    "issueCounts": {
+      "critical": 0,
+      "warning": 4,
+      "notice": 12
+    },
+    "topFixes": [
+      {
+        "rank": 1,
+        "id": "NO_VIEWPORT",
+        "severity": "warning",
+        "fix": "Not set up for mobile (no viewport tag)",
+        "pagesAffected": 2,
+        "percentOfPages": 100,
+        "whyItMatters": "Google ranks the mobile version of your site. Without a viewport tag, phones show a shrunken desktop page.",
+        "howToFix": "Add <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> inside <head>.",
+        "exampleUrls": [
+          "https://www.sitemaps.org/",
+          "https://www.sitemaps.org/protocol.html"
+        ]
+      },
+      {
+        "rank": 2,
+        "id": "MISSING_META_DESCRIPTION",
+        "severity": "warning",
+        "fix": "Missing meta description",
+        "pagesAffected": 1,
+        "percentOfPages": 50,
+        "whyItMatters": "The description is the grey text under your headline in Google. Without it, Google pulls random text from the page and fewer people click.",
+        "howToFix": "Add a <meta name=\"description\"> of 70-160 characters that sells the page and includes the main keyword.",
+        "exampleUrls": [
+          "https://www.sitemaps.org/protocol.html"
+        ]
+      },
+      {
+        "rank": 3,
+        "id": "TITLE_TOO_SHORT",
+        "severity": "notice",
+        "fix": "Title is too short",
+        "pagesAffected": 2,
+        "percentOfPages": 100,
+        "whyItMatters": "A very short title wastes the most valuable spot in search results and rarely matches what people search for.",
+        "howToFix": "Expand the title to 30-60 characters: main keyword + what the page offers + brand.",
+        "exampleUrls": [
+          "https://www.sitemaps.org/",
+          "https://www.sitemaps.org/protocol.html"
+        ]
+      },
+      {
+        "rank": 4,
+        "id": "MULTIPLE_H1",
+        "severity": "notice",
+        "fix": "More than one H1 heading",
+        "pagesAffected": 2,
+        "percentOfPages": 100,
+        "whyItMatters": "Several main headlines blur what the page is about. Not an error, but one clear H1 is the best practice.",
+        "howToFix": "Keep one <h1> for the main headline and change the others to <h2> or <h3>.",
+        "exampleUrls": [
+          "https://www.sitemaps.org/",
+          "https://www.sitemaps.org/protocol.html"
+        ]
+      },
+      {
+        "rank": 5,
+        "id": "MISSING_CANONICAL",
+        "severity": "notice",
+        "fix": "No canonical tag",
+        "pagesAffected": 2,
+        "percentOfPages": 100,
+        "whyItMatters": "Without a canonical, URL variants (tracking parameters, http/https, trailing slashes) can compete with each other in Google.",
+        "howToFix": "Add <link rel=\"canonical\" href=\"...\"> pointing at the page's own preferred URL. Most SEO plugins do this automatically.",
+        "exampleUrls": [
+          "https://www.sitemaps.org/",
+          "https://www.sitemaps.org/protocol.html"
+        ]
+      }
+    ],
+    "siteIssues": [],
+    "duplicateTitles": [],
+    "duplicateDescriptions": [],
+    "lowestScoringPages": [
+      {
+        "url": "https://www.sitemaps.org/protocol.html",
+        "score": 67,
+        "grade": "D"
+      },
+      {
+        "url": "https://www.sitemaps.org/",
+        "score": 70,
+        "grade": "C"
+      }
+    ],
+    "failedPages": [],
+    "auditSource": "sitemap",
+    "sitemapUrls": [
+      "https://www.sitemaps.org/sitemap.xml"
+    ],
+    "robotsTxtFound": true,
+    "auditedAt": "2026-11-12T01:38:15.482Z",
+    "pagesSkippedOverCap": 21,
+    "reportUrl": "https://api.apify.com/v2/key-value-stores/KQO8gkyJzGzmLe4jM/records/REPORT?signature=YphxTr65wdaOlaARPrL5"
+  },
+  {
+    "rowType": "site-summary",
+    "site": "https://web.dev",
+    "siteScore": 74,
+    "grade": "C",
+    "averagePageScore": 79,
+    "sitePenalty": 5,
+    "pagesAudited": 2,
+    "pagesFailed": 0,
+    "brokenPages": 0,
+    "pagesWithCriticalIssues": 0,
+    "issueCounts": {
+      "critical": 0,
+      "warning": 6,
+      "notice": 4
+    },
+    "topFixes": [
+      {
+        "rank": 1,
+        "id": "MISSING_H1",
+        "severity": "warning",
+        "fix": "No H1 heading",
+        "pagesAffected": 2,
+        "percentOfPages": 100,
+        "whyItMatters": "The H1 is the main headline on the page. It tells visitors and search engines what the page is about.",
+        "howToFix": "Add one <h1> near the top of the page that matches the page topic (it can be close to the title).",
+        "exampleUrls": [
+          "https://web.dev/",
+          "https://web.dev/html"
+        ]
+      },
+      {
+        "rank": 2,
+        "id": "NO_SITEMAP",
+        "severity": "warning",
+        "fix": "No XML sitemap found",
+        "pagesAffected": 1,
+        "percentOfPages": 50,
+        "whyItMatters": "A sitemap helps Google find all your pages, especially new or deep ones.",
+        "howToFix": "Publish /sitemap.xml (most CMSs and SEO plugins can generate it), list it in robots.txt and submit it in Google Search Console.",
+        "exampleUrls": [
+          "https://web.dev"
+        ]
+      },
+      {
+        "rank": 3,
+        "id": "HREFLANG_INVALID",
+        "severity": "warning",
+        "fix": "Invalid hreflang language code",
+        "pagesAffected": 2,
+        "percentOfPages": 100,
+        "whyItMatters": "Google ignores hreflang tags with bad codes, so visitors may see the wrong language version.",
+        "howToFix": "Use ISO codes like \"en\", \"en-US\", \"es-MX\" or \"x-default\" in every hreflang tag.",
+        "exampleUrls": [
+          "https://web.dev/",
+          "https://web.dev/html"
+        ]
+      },
+      {
+        "rank": 4,
+        "id": "MISSING_META_DESCRIPTION",
+        "severity": "warning",
+        "fix": "Missing meta description",
+        "pagesAffected": 1,
+        "percentOfPages": 50,
+        "whyItMatters": "The description is the grey text under your headline in Google. Without it, Google pulls random text from the page and fewer people click.",
+        "howToFix": "Add a <meta name=\"description\"> of 70-160 characters that sells the page and includes the main keyword.",
+        "exampleUrls": [
+          "https://web.dev/html"
+        ]
+      },
+      {
+        "rank": 5,
+        "id": "TITLE_TOO_SHORT",
+        "severity": "notice",
+        "fix": "Title is too short",
+        "pagesAffected": 2,
+        "percentOfPages": 100,
+        "whyItMatters": "A very short title wastes the most valuable spot in search results and rarely matches what people search for.",
+        "howToFix": "Expand the title to 30-60 characters: main keyword + what the page offers + brand.",
+        "exampleUrls": [
+          "https://web.dev/",
+          "https://web.dev/html"
+        ]
+      }
+    ],
+    "siteIssues": [
+      {
+        "id": "NO_SITEMAP",
+        "severity": "warning",
+        "title": "No XML sitemap found",
+        "detail": "Checked robots.txt and /sitemap.xml, /sitemap_index.xml",
+        "whyItMatters": "A sitemap helps Google find all your pages, especially new or deep ones.",
+        "howToFix": "Publish /sitemap.xml (most CMSs and SEO plugins can generate it), list it in robots.txt and submit it in Google Search Console.",
+        "affected": 1,
+        "exampleUrls": [
+          "https://web.dev"
+        ]
+      }
+    ],
+    "duplicateTitles": [],
+    "duplicateDescriptions": [],
+    "lowestScoringPages": [
+      {
+        "url": "https://web.dev/html",
+        "score": 77,
+        "grade": "C"
+      },
+      {
+        "url": "https://web.dev/",
+        "score": 80,
+        "grade": "B"
+      }
+    ],
+    "failedPages": [],
+    "auditSource": "link-crawl",
+    "sitemapUrls": [],
+    "robotsTxtFound": true,
+    "auditedAt": "2026-11-12T01:38:15.482Z",
+    "pagesSkippedOverCap": 21,
+    "reportUrl": "https://api.apify.com/v2/key-value-stores/KQO8gkyJzGzmLe4jM/records/REPORT?signature=YphxTr65wdaOlaARPrL5"
+  },
+  {
+    "rowType": "site-summary",
+    "site": "https://hcb-nonexistent-domain-zz9q.com",
+    "siteScore": null,
+    "grade": null,
+    "averagePageScore": null,
+    "sitePenalty": 0,
+    "pagesAudited": 0,
+    "pagesFailed": 1,
+    "brokenPages": 0,
+    "pagesWithCriticalIssues": 0,
+    "issueCounts": {
+      "critical": 0,
+      "warning": 0,
+      "notice": 0
+    },
+    "topFixes": [],
+    "siteIssues": [],
+    "duplicateTitles": [],
+    "duplicateDescriptions": [],
+    "lowestScoringPages": [],
+    "failedPages": [
+      {
+        "url": "https://hcb-nonexistent-domain-zz9q.com/",
+        "errorCode": "DNS_NOT_FOUND"
+      }
+    ],
+    "auditSource": "link-crawl",
+    "sitemapUrls": [],
+    "robotsTxtFound": null,
+    "auditedAt": "2026-11-12T01:38:15.481Z",
+    "pagesSkippedOverCap": 0,
+    "reportUrl": "https://api.apify.com/v2/key-value-stores/KQO8gkyJzGzmLe4jM/records/REPORT?signature=YphxTr65wdaOlaARPrL5"
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "domain": "not a domain!!",
+    "status": "invalid",
+    "method": "none",
+    "note": "Not a valid domain name",
+    "checkedAt": "2026-11-12T01:38:52.401Z"
+  },
+  {
+    "domain": "google.com",
+    "tld": "com",
+    "registrar": "MarkMonitor Inc.",
+    "registrarIanaId": "292",
+    "createdAt": "1997-09-15T04:00:00Z",
+    "expiresAt": "2028-09-14T04:00:00Z",
+    "updatedAt": "2019-09-09T15:39:04Z",
+    "nameservers": [
+      "ns1.google.com",
+      "ns2.google.com",
+      "ns3.google.com",
+      "ns4.google.com"
+    ],
+    "statusCodes": [
+      "client delete prohibited",
+      "client transfer prohibited",
+      "client update prohibited",
+      "server delete prohibited",
+      "server transfer prohibited",
+      "server update prohibited"
+    ],
+    "dnssec": false,
+    "status": "registered",
+    "method": "rdap",
+    "rdapServer": "rdap.verisign.com",
+    "note": null,
+    "durationMs": 97,
+    "checkedAt": "2026-11-12T01:38:52.572Z"
+  },
+  {
+    "domain": "wikipedia.org",
+    "tld": "org",
+    "registrar": "MarkMonitor Inc.",
+    "registrarIanaId": "292",
+    "createdAt": "2001-01-13T00:12:14.754Z",
+    "expiresAt": "2027-01-13T00:12:14Z",
+    "updatedAt": "2026-08-12T08:47:19.41Z",
+    "nameservers": [
+      "ns0.wikimedia.org",
+      "ns1.wikimedia.org",
+      "ns2.wikimedia.org"
+    ],
+    "statusCodes": [
+      "client delete prohibited",
+      "client transfer prohibited",
+      "client update prohibited"
+    ],
+    "dnssec": false,
+    "status": "registered",
+    "method": "rdap",
+    "rdapServer": "rdap.publicinterestregistry.org",
+    "note": null,
+    "durationMs": 181,
+    "checkedAt": "2026-11-12T01:38:52.656Z"
+  },
+  {
+    "domain": "hillcountrybots-example-name.com",
+    "tld": "com",
+    "registrar": null,
+    "registrarIanaId": null,
+    "createdAt": null,
+    "expiresAt": null,
+    "updatedAt": null,
+    "nameservers": [],
+    "statusCodes": [],
+    "dnssec": null,
+    "status": "available",
+    "method": "rdap",
+    "rdapServer": "rdap.verisign.com",
+    "note": "Not found in the registry RDAP. Premium or reserved names may still be unregistrable or cost more.",
+    "durationMs": 369,
+    "checkedAt": "2026-11-12T01:38:52.844Z"
+  },
+  {
+    "domain": "python.org",
+    "tld": "org",
+    "registrar": "Gandi SAS",
+    "registrarIanaId": "81",
+    "createdAt": "1995-03-27T05:00:00.545Z",
+    "expiresAt": "2033-03-28T05:00:00Z",
+    "updatedAt": "2026-08-12T05:01:11.536Z",
+    "nameservers": [
+      "ns-1134.awsdns-13.org",
+      "ns-2046.awsdns-63.co.uk",
+      "ns-484.awsdns-60.com",
+      "ns-981.awsdns-58.net"
+    ],
+    "statusCodes": [
+      "client transfer prohibited"
+    ],
+    "dnssec": false,
+    "status": "registered",
+    "method": "rdap",
+    "rdapServer": "rdap.publicinterestregistry.org",
+    "note": null,
+    "durationMs": 420,
+    "checkedAt": "2026-11-12T01:38:52.895Z"
+  },
+  {
+    "domain": "hcb-free-name-test-7731.net",
+    "tld": "net",
+    "registrar": null,
+    "registrarIanaId": null,
+    "createdAt": null,
+    "expiresAt": null,
+    "updatedAt": null,
+    "nameservers": [],
+    "statusCodes": [],
+    "dnssec": null,
+    "status": "available",
+    "method": "rdap",
+    "rdapServer": "rdap.verisign.com",
+    "note": "Not found in the registry RDAP. Premium or reserved names may still be unregistrable or cost more.",
+    "durationMs": 421,
+    "checkedAt": "2026-11-12T01:38:53.144Z"
+  },
+  {
+    "domain": "mozilla.org",
+    "tld": "org",
+    "registrar": "MarkMonitor Inc.",
+    "registrarIanaId": "292",
+    "createdAt": "1998-01-24T05:00:00.291Z",
+    "expiresAt": "2027-01-23T05:00:00Z",
+    "updatedAt": "2026-09-14T20:48:21.932Z",
+    "nameservers": [
+      "ns1-240.akam.net",
+      "ns4-64.akam.net",
+      "ns5-65.akam.net",
+      "ns7-66.akam.net"
+    ],
+    "statusCodes": [
+      "client delete prohibited",
+      "server delete prohibited",
+      "client transfer prohibited",
+      "server transfer prohibited",
+      "client update prohibited",
+      "server update prohibited"
+    ],
+    "dnssec": false,
+    "status": "registered",
+    "method": "rdap",
+    "rdapServer": "rdap.publicinterestregistry.org",
+    "note": null,
+    "durationMs": 543,
+    "checkedAt": "2026-11-12T01:38:53.177Z"
+  }
+]
